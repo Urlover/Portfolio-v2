@@ -1,0 +1,30 @@
+/****************************************
+Global Settings
+*****************************************/
+* {
+    font-size: 16px;
+}
+/****************************************
+Root Variables
+*****************************************/
+:root {
+    --main-color: #ff8787;                 /* Main color - RED */
+}
+
+/****************************************
+Navigation bar container 
+*****************************************/
+/* Resume button */
+#navbar-resume-btn {
+    background-color: white;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    border-radius: 3px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+    #navbar-resume-btn:hover {
+        background-color: var(--main-color);
+        border: 2px solid var(--main-color);
+        color: white;
+    }
