@@ -14,6 +14,12 @@ Root Variables
 /****************************************
 Navigation bar container 
 *****************************************/
+/* Nav links */
+.nav-item a { color: var(--main-color); }
+    .nav-item a:hover { text-decoration: none; }
+    /* Style for link that represents page */
+    #navbar-curr { text-decoration: underline; font-weight: bold; }
+
 /* Resume button */
 #navbar-resume-btn {
     background-color: white;
