@@ -40,7 +40,7 @@ Social Icon bar Wrapper
         color: var(--gray5);
     }
       .social-bar a:hover {
-           color: var(--gray6); 
+        color: var(--gray6); 
       }
    /* Vertical lines */
   .vl { 
@@ -54,15 +54,19 @@ Social Icon bar Wrapper
 Navigation bar Wrapper
 *********************************************************************************/
   /* Nav links */
-  .nav-item a { color: var(--main-color); }
-    .nav-item a:hover { text-decoration: none; }
-    /* Style for link that represents page */
-    #navbar-curr { text-decoration: underline; font-weight: bold; 
+  .nav-item a { 
+      color: var(--main-color); 
     }
-
+    .nav-item a:hover { 
+        text-decoration: none; 
+    }
+    /* Style for link that represents page */
+    #navbar-curr { 
+        text-decoration: underline;
+        font-weight: bold; 
+    }
   /* Resume button */
   #navbar-resume-btn {
-
     background-color: var(--main-color);
     border: 2px solid var(--main-color);
     color: white;
@@ -75,28 +79,36 @@ Navigation bar Wrapper
         color: var(--main-color);
         border: 2px solid var(--main-color);
     }
+  /* Nav bar when collapse only */
+  #navbarToggler {
+    padding: 5px;
+  }
+    #navbarToggler li {
+        padding: 5px;
+    }
 
 /********************************************************************************
 Responsive queries
 *********************************************************************************/
-  /* Extra small devices (phones, 600px and down) */
-  @media only screen and (max-width: 540px) {
-    .social-bar { display: none;}
-  }
-  
-  /* Small devices (portrait tablets and large phones, 540px and up) */
-  @media only screen and (min-width: 540px) and (max-width: 719px) {
-    .social-bar { display: none;}
+  /* Extra small devices (phones, 575px and down) */
+  @media only screen and (max-width: 575px) {
     .page-wrapper { max-width: 95%;}
+    .social-bar { display: none;}
+    #navbarToggler { background-color: #ced4da2c; } /* Gray 4 transparent */
+  }
+
+  /* Extra small devices (phones, 575px and up) */
+  @media only screen and (min-width: 576px) {
+    .page-wrapper { max-width: 95%; }
   }
   
   /* Medium devices (landscape tablets, 720px and up) */
-  @media only screen and (min-width: 720px) {
+  @media only screen and (min-width: 768px) {
     .page-wrapper { max-width: 95%;}
   } 
   
   /* Large devices (laptops/desktops, 960px and up) */
-  @media only screen and (min-width: 960px) {
+  @media only screen and (min-width: 992px) {
     .page-wrapper { max-width: 90%;}
   } 
   
