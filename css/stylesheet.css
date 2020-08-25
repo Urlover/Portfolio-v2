@@ -46,7 +46,7 @@ Social Icon bar Wrapper
         display: block;
         padding: 5px 0;
         color: var(--gray5);
-        color: #adb5bd;        
+        color: #adb5bd;     
     }
       .social-bar a:hover {
         color: var(--gray6); 
@@ -140,12 +140,29 @@ Content Wrapper
 /* About me box */
     .c-aboutMe { margin: auto; padding: 25px 0 50px 0; }
 
-    .c-aboutMe h4 { color: var(--main-color); color: #748ffc;}
+      .c-aboutMe h4 { color: var(--main-color); color: #748ffc;}
 /* My interest box */
-    .c-interest { margin: auto; padding-bottom: 50px; }
-
-    .c-interest h4 { color: var(--main-color); color: #748ffc; }
-
+    .c-interest { 
+        margin: auto; 
+        padding-bottom: 50px; 
+    }
+      .c-interest h4 { 
+        color: var(--main-color); 
+        color: #748ffc; 
+      }
+      #i-boxes {
+        padding: 10px; margin: auto;
+      }
+      #i-boxes #i-box {
+        text-align: center;
+        width: 100%;
+        height: 250px;
+        padding: 5px;
+        color: white;
+        border: 2px solid var(--main-color);
+        border: 2px solid #748ffc;
+      }
+    
 /********************************************************************************
 Responsive queries
 *********************************************************************************/
@@ -157,22 +174,24 @@ Responsive queries
     .c-aboutMe { width: 90%; }
   }
 
-  /* Extra small devices (phones, 575px and up) */
+  /* Extra small devices (phones, 576px and up) */
   @media only screen and (min-width: 576px) {
     .page-wrapper { max-width: 95%; }
     .c-aboutMe { width: 80%; }
   }
   
-  /* Medium devices (landscape tablets, 720px and up) */
+  /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
     .page-wrapper { max-width: 95%;}
     .c-aboutMe { width: 70%; }
+    #i-boxes { width: 70%;}
   } 
   
-  /* Large devices (laptops/desktops, 960px and up) */
+  /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
     .page-wrapper { max-width: 90%;}
     .c-aboutMe { width: 70%; }
+    #i-boxes { width: 90%; }
   } 
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
