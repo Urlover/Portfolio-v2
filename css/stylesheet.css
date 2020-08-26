@@ -150,15 +150,13 @@ Content Wrapper
       }
       #i-outbox { padding: 5px; position: relative; }
       #i-boxes {
-        padding-top: 10px; margin: auto;
+        padding-top: 10px; margin: auto; width: 80%;
       }
       #i-boxes #i-box {
         text-align: center;
         height: 350px;
         padding: 0px;
         color: white;
-        border: 1px solid var(--main-color);
-        border: 1px solid #748ffc;
       }
       /* 
       Image overlay from:
@@ -198,12 +196,14 @@ Responsive queries
     .social-bar { display: none;}
     #navbarToggler { background-color: #ced4da2c; } /* Gray 4 transparent */
     .c-aboutMe { width: 90%; }
+    #i-boxes { width: 100%;}
   }
 
   /* Extra small devices (phones, 576px and up) */
   @media only screen and (min-width: 576px) {
     .page-wrapper { max-width: 95%; }
     .c-aboutMe { width: 80%; }
+    #i-boxes { width: 90%;}
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
