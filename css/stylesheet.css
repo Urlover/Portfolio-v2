@@ -149,9 +149,7 @@ Content Wrapper
         color: #748ffc; 
       }
       #i-outbox { padding: 5px; position: relative; }
-      #i-boxes {
-        padding-top: 10px; margin: auto; width: 80%;
-      }
+      #i-boxes { padding-top: 10px; margin: auto; width: 80%; }
       #i-boxes #i-box {
         text-align: center;
         height: 350px;
@@ -208,6 +206,7 @@ Responsive queries
     #navbarToggler { background-color: #ced4da2c; } /* Gray 4 transparent */
     .c-aboutMe { width: 90%; }
     #i-boxes { width: 100%;}
+    #i-boxes #i-box { height: 250px; }
   }
 
   /* Extra small devices (phones, 576px and up) */
