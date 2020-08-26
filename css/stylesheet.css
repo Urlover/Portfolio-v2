@@ -115,7 +115,7 @@ Content Wrapper
       text-align: center;
     }
 /* Introduction box */    
-    .c-intro { padding: 50px; }
+    .c-intro { padding-top: 50px; padding-bottom: 125px; }
 
       .c-intro h1 { 
           font-size: 60px; 
