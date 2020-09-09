@@ -108,12 +108,8 @@ Navigation bar Wrapper
         border: 2px solid #748ffc;          
     }
   /* Nav bar when collapse only */
-  #navbarToggler {
-    padding: 5px;
-  }
-    #navbarToggler li {
-        padding: 5px;
-    }
+  #navbarToggler { padding: 15px; }
+  #navbarToggler li { padding-bottom: 15px; }
 
 /********************************************************************************
 Content Wrapper
