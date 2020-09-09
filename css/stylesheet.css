@@ -180,7 +180,7 @@ Content Wrapper
         width: 100%;
         opacity: 0;
         transition: .5s ease;
-        background-color: #748ffc;
+        background-color: #748ffcad;
       }
       #i-box:hover .i-overlay { opacity: 1; }
       .i-text { 
