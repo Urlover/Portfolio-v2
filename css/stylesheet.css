@@ -130,12 +130,12 @@ Content Wrapper
     .c-intro { padding-top: 50px; padding-bottom: 125px; }
 
       .c-intro h1 { 
-          font-size: 60px; 
+          font-size: 50px; 
           font-weight: 300;
         }
       #cHeader1-font1 { 
         color:#748ffc;  
-        font-size: 60px;
+        font-size: 50px;
         font-weight: 400;
       }
       .c-intro h2 { 
@@ -195,7 +195,7 @@ Content Wrapper
         text-align: center;
       }
 /********************************************************************************
-Content Wrapper
+Footer
 *********************************************************************************/  
   .footer { 
       width: 100%;
@@ -228,6 +228,20 @@ Content Wrapper
       padding: 15px 35px;
       border-radius: 3px;
     }
+
+/********************************************************************************
+Projects Page
+*********************************************************************************/
+  #projects-content {
+
+  }
+  #projects-content h1 { 
+    text-align: center; 
+    padding-top: 50px; 
+    font-size: 50px; 
+    font-weight: 300;
+  }
+
 /********************************************************************************
 Responsive queries
 *********************************************************************************/
