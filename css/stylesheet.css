@@ -118,16 +118,10 @@ Navigation bar Wrapper
 /********************************************************************************
 Content Wrapper
 *********************************************************************************/
-  #content { 
-      /*margin: 0;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);*/
-      text-align: center;
-    }
+  #content { text-align: center; }
+
 /* Introduction box */    
-    .c-intro { padding-top: 50px; padding-bottom: 125px; }
+    .c-intro { padding-top: 85px; padding-bottom: 125px; }
 
       .c-intro h1 { 
           font-size: 50px; 
@@ -148,15 +142,13 @@ Content Wrapper
         font-weight: 300;
       }
 /* About me box */
-    .c-aboutMe { margin: auto; padding: 25px 0 50px 0; }
+    .c-aboutMe { margin: auto; padding-bottom: 125px; }
 
       .c-aboutMe h4 { color: #748ffc;}
 /* My interest box */
     #c-interest { margin: auto; }
 
-      #c-interest h4 { 
-        color: #748ffc; 
-      }
+      #c-interest h4 { color: #748ffc; }
       #i-outbox { padding: 5px; position: relative; }
       #i-boxes { padding-top: 10px; margin: auto; width: 80%; }
       #i-boxes #i-box {
@@ -232,12 +224,9 @@ Footer
 /********************************************************************************
 Projects Page
 *********************************************************************************/
-  #projects-content {
-
-  }
-  #projects-content h1 { 
+  #projects-content .c-intro-2 h1 { 
     text-align: center; 
-    padding-top: 50px; 
+    padding-top: 85px; 
     font-size: 50px; 
     font-weight: 300;
   }
