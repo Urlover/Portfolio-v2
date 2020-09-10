@@ -220,11 +220,75 @@ Footer
 /********************************************************************************
 Projects Page
 *********************************************************************************/
+/* Projects content */
   #projects-content .c-intro-2 h1 { 
     text-align: center; 
     padding-top: 85px; 
+    padding-bottom: 125px;
     font-size: 50px; 
     font-weight: 300;
+  }
+  .project-box { 
+    margin: auto; 
+    padding: 0 !important;
+  }
+  .project-box h2 { 
+    margin: 0; 
+    font-weight: 100;
+    font-size: 25px;
+    color: #748ffc;
+  }
+  .project-box p { 
+    padding: 0; 
+    margin: 0; 
+  }
+  #p-outbox { 
+    padding: 5px; 
+    position: relative; 
+    height: 350px;
+    background-color: #4c6ef5ce;
+  }
+  #p-boxes { padding-top: 10px; margin: auto; width: 80%; }
+  #p-boxes #p-box {
+    height: 350px;
+    padding: 0px;
+    color: white;
+  }
+  .p-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #4c6ef5;
+  }
+  .p-overlay-2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+  }
+  #p-box:hover .p-overlay-2 { opacity: 0; }
+  #p-box:hover .p-overlay { opacity: 1; }
+  .p-text { 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
   }
 
 /********************************************************************************
