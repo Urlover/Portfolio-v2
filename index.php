@@ -30,13 +30,13 @@
     <div class="container-sm" id="content">
       <!-- Introduction -->
       <div class="c-intro">
-          <h1 data-aos="fade-up" data-aos-duration="2000">Hi, I'm <span id="cHeader1-font1">Jonah.</span></h1>
-          <h2 data-aos="fade-up" data-aos-duration="2500"><span id="cHeader2-font1">I love to create </span>websites & applications.</h2>
+          <h1 class="slide-in-bottom">Hi, I'm <span id="cHeader1-font1">Jonah.</span></h1>
+          <h2 class="slide-in-bottom-2"><span id="cHeader2-font1">I love to create </span>websites & applications.</h2>
         </div>
       <!-- About me -->
       <div class="c-aboutMe">
-        <h4 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">A little about me</h4>
-        <p data-aos="fade-up" data-aos-duration="2500" data-aos-delay="500">I'm currently a Computer Science student attending my third year at Algonquin College. 
+        <h4 class="slide-in-bottom-d">A little about me</h4>
+        <p class="slide-in-bottom-d2">I'm currently a Computer Science student attending my third year at Algonquin College. 
           Through the past years, I have been taught many things that have propelled me to write
           efficient code in order to create or problem solve. With consistency and persistence, I always
           continue to learn more about this beautiful world of code.
@@ -55,9 +55,9 @@
           for ($x = 0; $x < count($myInterest); $x++) {
             // Set animation side
             if ($x % 2 == 0) {
-              echo '<div class="col-lg-6" id="i-outbox" data-aos="fade-right" data-aos-duration="2000">';
+              echo '<div class="col-lg-6" id="i-outbox">';
             } else {
-              echo '<div class="col-lg-6" id="i-outbox" data-aos="fade-left" data-aos-duration="2000">';
+              echo '<div class="col-lg-6" id="i-outbox">';
             }
             // Display rest of images + text 
           ?>  
@@ -77,9 +77,6 @@
     <!-- Footer -->
     <?php include("footer.php"); ?>
   </div>
-
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script> AOS.init(); </script>
 
 </body>
 </html>
