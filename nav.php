@@ -11,7 +11,7 @@
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <?php
         // Set underline of nav bar item to current page
-        if (stripos($_SERVER['REQUEST_URI'], 'index.php')) {
+        if (stripos($_SERVER['SCRIPT_NAME'], 'index.php')) {
           echo '<li class="nav-item active pr-4"><a id="navbar-curr" href="index.php">About Me</a></li>';
           echo '<li class="nav-item pr-4"><a href="projects.php">Projects</a></li> ';
         } else {
