@@ -1,7 +1,7 @@
 <!-- Navigation bar -->
 <nav class="navbar navbar-expand-sm navbar-light">
   <!-- Logo -->
-  <a class="navbar-brand" href="index.html"><img src="images/J_logo.png" width="40" height="40"></a>
+  <a class="navbar-brand" href="index.php"><img src="images/J_logo.png" width="40" height="40"></a>
   <!-- Hamburger icon (collapse) -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
