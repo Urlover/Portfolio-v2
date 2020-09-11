@@ -21,18 +21,19 @@
 </head>
 <body>
   <div class="page-wrapper">
-  <!-- Navigation bar -->
-  <?php include("nav.php"); ?>
-  <!-- Social icon bar (Static left side) -->
-  <?php include("social.php"); ?>
+    <!-- Navigation bar -->
+    <?php include("nav.php"); ?>
+    <!-- Social icon bar (Static left side) -->
+    <?php include("social.php"); ?>
 
     <!-- Content Area -->
     <div class="container-sm" id="content">
+      <!-- Introduction -->
       <div class="c-intro">
-        <h1 data-aos="fade-up" data-aos-duration="2000">Hi, I'm <span id="cHeader1-font1">Jonah.</span></h1>
-        <h2 data-aos="fade-up" data-aos-duration="2500"><span id="cHeader2-font1">I love to create </span>websites & applications.</h2>
-      </div>
-      <!-- A little about me -->
+          <h1 data-aos="fade-up" data-aos-duration="2000">Hi, I'm <span id="cHeader1-font1">Jonah.</span></h1>
+          <h2 data-aos="fade-up" data-aos-duration="2500"><span id="cHeader2-font1">I love to create </span>websites & applications.</h2>
+        </div>
+      <!-- About me -->
       <div class="c-aboutMe">
         <h4 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">A little about me</h4>
         <p data-aos="fade-up" data-aos-duration="2500" data-aos-delay="500">I'm currently a Computer Science student attending my third year at Algonquin College. 
@@ -41,58 +42,44 @@
           continue to learn more about this beautiful world of code.
         </p>
       </div>
-      <!-- My Interest -->
+      <!-- My interest -->  
       <div class="container-sm" id="c-interest">
         <h4 data-aos="zoom-in" data-aos-duration="2000">My interest</h4>
         <!-- Boxes -->
         <div class="row" id="i-boxes">
-          <!-- Box #1 -->
-          <div class="col-lg-6" id="i-outbox" data-aos="fade-right" data-aos-duration="2000">
-            <div id="i-box">
-              <img src="images/test_pic1.jpg" width="100%" height="100%">
-              <div class="i-overlay">
-                <div class="i-text">Gaming</div>
-              </div>
-            </div>
-          </div>
-          <!-- Box #2 -->
-          <div class="col-lg-6" id="i-outbox" data-aos="fade-left" data-aos-duration="2000">
-            <div id="i-box">
-              <img src="images/test_pic2.jpg" width="100%" height="100%">
-              <div class="i-overlay">
-                <div class="i-text">Programming</div>
-              </div>
-            </div>
-          </div>
-          <!-- Box #3 -->
-          <div class="col-lg-6" id="i-outbox" data-aos="fade-right" data-aos-duration="2000">
-            <div id="i-box">
-              <img src="images/test_pic3.jpg" width="100%" height="100%">
-              <div class="i-overlay">
-                <div class="i-text">Coffee</div>
-              </div>
-            </div>
-          </div>
-          <!-- Box #4 -->
-          <div class="col-lg-6" id="i-outbox" data-aos="fade-left" data-aos-duration="2000">
-            <div id="i-box">
-              <img src="images/test_pic4.jpg" width="100%" height="100%">
-              <div class="i-overlay">
-                <div class="i-text">Nature</div>
-              </div>
-            </div>
-          </div>
+          <?php
+          // Create array of all my interest
+          $myInterest = array("Gaming", "Programming", "Coffee", "Nature");
 
-          </div>
-        </div> <!-- end of i-boxes-->
-      </div> <!-- end of c-interest -->
-    </div> <!-- end of Content Area -->
+          // Loop until end of array
+          for ($x = 0; $x < count($myInterest); $x++) {
+            // Set animation side
+            if ($x % 2 == 0) {
+              echo '<div class="col-lg-6" id="i-outbox" data-aos="fade-right" data-aos-duration="2000">';
+            } else {
+              echo '<div class="col-lg-6" id="i-outbox" data-aos="fade-left" data-aos-duration="2000">';
+            }
+            // Display rest of images + text 
+          ?>  
+            <div id="i-box">
+              <img src="images/test_pic<?php echo $x+1; ?>.jpg" width="100%" height="100%">
+              <div class="i-overlay">
+                  <div class="i-text">
+                    <?php echo $myInterest[$x]; ?>
+                  </div>
+              </div>
+            </div>  <!-- end of i-box -->
+        </div>      <!-- end of row -->
+        <?php } ?>  <!-- close For Loop -->
+      </div>        <!-- end of my interest -->
+    </div>          <!-- end of content area -->
 
     <!-- Footer -->
     <?php include("footer.php"); ?>
+  </div>
 
- </div> <!-- end of page wrapper-->
- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
- <script> AOS.init(); </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script> AOS.init(); </script>
+
 </body>
 </html>
