@@ -230,12 +230,11 @@ Projects Page
   }
   .project-box { 
     margin: auto; 
-    padding: 0 !important;
   }
   .project-box h2 { 
     margin: 0; 
-    font-weight: 100;
-    font-size: 25px;
+    font-weight: 400;
+    font-size: 20px;
     color: #748ffc;
   }
   .project-box p { 
@@ -254,7 +253,20 @@ Projects Page
     padding: 0px;
     color: white;
   }
+  /* Default overlay */
   .p-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+  }
+  /* Hover overlay */
+  .p-overlay-2 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -266,19 +278,8 @@ Projects Page
     transition: .5s ease;
     background-color: #4c6ef5;
   }
-  .p-overlay-2 {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 1;
-    transition: .5s ease;
-  }
-  #p-box:hover .p-overlay-2 { opacity: 0; }
-  #p-box:hover .p-overlay { opacity: 1; }
+  #p-box:hover .p-overlay { opacity: 0; }
+  #p-box:hover .p-overlay-2 { opacity: 1; }
   .p-text { 
     color: white;
     font-size: 20px;
@@ -290,6 +291,7 @@ Projects Page
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  #p-padding { padding-bottom: 85px; }
 
 /********************************************************************************
 Responsive queries

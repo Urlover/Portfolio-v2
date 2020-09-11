@@ -21,33 +21,10 @@
 </head>
 <body>
   <div class="page-wrapper">
-<!-- Navigation bar -->
-    <nav class="navbar navbar-expand-sm navbar-light">
-        <!-- Logo -->
-        <a class="navbar-brand" href="index.html"><img src="images/J_logo.png" width="40" height="40"></a>
-        <!-- Hamburger icon (collapse) -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Links on the left -->
-        <div class="collapse navbar-collapse" id="navbarToggler">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active pr-4"><a href="index.html">About Me</a></li>
-            <li class="nav-item pr-4"><a id="navbar-curr" href="projects.html">Projects</a></li>    
-          </ul>
-          <!-- Links & buttons on the right -->  
-          <a href="files/Jonah-Resume.pdf" target="_blank"><button type="button" id="navbar-resume-btn">Resume</button> </a>
-        </div>
-      </nav> <!-- End of Navigation bar -->
-      
-<!-- Social icon bar (Static left side) -->
-    <div class="social-bar">
-      <div class="vl"></div>  <!-- vertical line #1 -->
-      <a href="mailto:jonah_louis@outlook.com"><i class="fas fa-envelope fa-2x"></i></a>
-      <a href="https://github.com/Urlover" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-      <a href="https://steamcommunity.com/id/imurl0ver/"><i class="fab fa-steam fa-2x"></i></a>
-      <div class="vl"></div>  <!-- vertical line #2 -->
-    </div> <!-- end of social icon bar -->
+    <!-- Navigation bar -->
+    <?php include("nav.php"); ?>
+    <!-- Social icon bar (Static left side) -->
+    <?php include("social.php"); ?>
 
   <!-- Projects content -->
     <div class="container-sm" id="projects-content">
@@ -55,29 +32,32 @@
         <!-- Display of projects -->
         <div class="row">
         <!-- Project #1 -->
-          <div class="col-sm-9 project-box">
+          <div class="col-sm-9 project-box" id="p-padding">
             <h2>Overhaul.design</h2>
             <p>Text here</p>
             <!-- Showcase -->
             <div class="col-lg-12" id="p-outbox" data-aos="fade-right" data-aos-duration="2000">
               <div id="p-box">
-                <div class="p-overlay-2">
+                <!-- Overlay 1 (Shows by default) -->
+                <div class="p-overlay">
                   <div class="p-text">
                     <i class="fab fa-wordpress-simple fa-4x"></i>
                   </div>
                 </div>
-                <div class="p-overlay">
+                <!-- Overlay 2 (Shows on hover) -->
+                <div class="p-overlay-2">
                   <div class="p-text">
-                    <p>Text here</p>
-                    <button>View Project info</button>
+                    <button>View Project</button>
                   </div>
                 </div>
               </div>
-            </div>
-            
-          </div> <!--end of project box -->
+            </div>  
+          </div> <!--end of Project #1 -->
         </div> <!-- end of row -->
     </div>
+
+    <!-- Footer -->
+    <?php include("footer.php"); ?>
 
   </div> <!-- end of page wrapper-->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
