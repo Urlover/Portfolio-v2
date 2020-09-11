@@ -169,6 +169,7 @@ Content Wrapper
         opacity: 0;
         transition: .5s ease;
         background-color: #748ffcad;
+        background-color: rgba(116, 143, 252, 0.68);  /* For IE & Edge */
       }
       #i-box:hover .i-overlay { opacity: 1; }
       .i-text { 
@@ -246,6 +247,7 @@ Projects Page
     position: relative; 
     height: 350px;
     background-color: #4c6ef5ce;
+    background-color: rgba(76, 110, 245, 0.81); /* For IE & Edge */
   }
   #p-boxes { padding-top: 10px; margin: auto; width: 80%; }
   #p-boxes #p-box {
