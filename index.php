@@ -44,7 +44,7 @@
       </div>
       <!-- My interest -->  
       <div class="container-sm" id="c-interest">
-        <h4 data-aos="zoom-in" data-aos-duration="2000">My interest</h4>
+        <h4>My interest</h4>
         <!-- Boxes -->
         <div class="row" id="i-boxes">
           <?php
