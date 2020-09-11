@@ -81,16 +81,19 @@ Social Icon bar Wrapper
 /********************************************************************************
 Navigation bar Wrapper
 *********************************************************************************/
+  /* Nav logo (Center) */
+  .navbar img {
+    margin-bottom: 13px;
+  } 
   /* Nav links */
   .nav-item a { 
       color: #748ffc;           
     }
     .nav-item a:hover { 
-        text-decoration: none; 
+        text-decoration: underline; 
     }
     /* Style for link that represents page */
     #navbar-curr { 
-        text-decoration: underline;
         font-weight: bold; 
     }
   /* Resume button */
@@ -301,6 +304,7 @@ Responsive queries
   /* Extra small devices (phones, 575px and down) */
   @media only screen and (max-width: 575px) {
     .page-wrapper { max-width: 95%;}
+  .navbar img { margin-bottom: 0; } 
     .social-bar { display: none;}
     #navbarToggler { background-color: #ced4da2c; } /* Gray 4 transparent */
     .c-aboutMe { width: 90%; }
