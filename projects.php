@@ -31,28 +31,40 @@
         <div class="c-intro-2 "><h1 data-aos="fade-up" data-aos-duration="2000">My Latest Projects</h1></div>
         <!-- Display of projects -->
         <div class="row">
-        <!-- Project #1 -->
-          <div class="col-sm-9 project-box" id="p-padding">
-            <h2>Overhaul.design</h2>
-            <p>Text here</p>
+        <?php
+          // Projects array - contains all project display information
+          $projects = array();
+
+          // Give array values
+          $projects[] = array("name" => "Overhaul.design", "description" => "Designed & created the website for our web agency business.", 
+                              "link" => "https://overhaul.design/", "logo" => "fab fa-wordpress-simple fa-4x", "animation" => "left");
+
+          // Loop until end of array
+          for ($x = 0; $x < count($projects); $x++) {          
+        ?>
+        <!-- Projects -->
+          <div class="col-sm-9 project-box" id="p-padding" data-aos="fade-<?php echo $projects[$x]["animation"]; ?>" data-aos-duration="2000">
+            <h2><?php echo $projects[$x]["name"]; ?></h2>
+            <p><?php echo $projects[$x]["description"]; ?></p>
             <!-- Showcase -->
-            <div class="col-lg-12" id="p-outbox" data-aos="fade-right" data-aos-duration="2000">
+            <div class="col-lg-12" id="p-outbox">
               <div id="p-box">
                 <!-- Overlay 1 (Shows by default) -->
                 <div class="p-overlay">
                   <div class="p-text">
-                    <i class="fab fa-wordpress-simple fa-4x"></i>
+                    <i class="<?php echo $projects[$x]["logo"]; ?>"></i>
                   </div>
                 </div>
                 <!-- Overlay 2 (Shows on hover) -->
                 <div class="p-overlay-2">
                   <div class="p-text">
-                    <button>View Project</button>
+                    <a href="<?php echo $projects[$x]["link"]; ?>" target="_blank"> <button type="button">View</button></a>
                   </div>
                 </div>
               </div>
             </div>  
           </div> <!--end of Project #1 -->
+          <?php } // end of for loop ?>  
         </div> <!-- end of row -->
     </div>
 
