@@ -49,7 +49,7 @@
         <div class="row" id="i-boxes">
           <?php
           // Create array of all my interest
-          $myInterest = array("Gaming", "Programming", "Coffee", "Nature");
+          $myInterest = array("Gaming", "Programming", "Coffee", "Spirituality");
 
           // Loop until end of array
           for ($x = 0; $x < count($myInterest); $x++) {
@@ -62,7 +62,7 @@
             // Display rest of images + text 
           ?>  
             <div id="i-box">
-              <img src="images/test_pic<?php echo $x+1; ?>.jpg" width="100%" height="100%">
+              <img src="images/pic_<?php echo $x+1; ?>.jpg" width="100%" height="100%">
               <div class="i-overlay">
                   <div class="i-text">
                     <?php echo $myInterest[$x]; ?>
