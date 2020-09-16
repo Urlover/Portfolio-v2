@@ -64,11 +64,11 @@
           <div class="col-lg-6 box" id="i-outbox" data-aos="fade-<?php echo $myInterest[$x]["animation"]; ?>" data-aos-duration="2000">
             <div id="i-box">
               <img src="images/pic_<?php echo $x+1; ?>.jpg" width="100%" height="100%">
-              <div class="i-overlay">
+              <a id="interest-open"><div class="i-overlay">
                   <div class="i-text">
                     <?php echo $myInterest[$x]["name"]; ?>
                   </div>
-              </div>
+              </div></a>
             </div>  <!-- end of i-box -->
         </div>      <!-- end of row -->
         <?php } ?>  <!-- close For Loop -->

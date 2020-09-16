@@ -163,6 +163,7 @@ Content Wrapper
     #c-interest { margin: auto; }
 
       #c-interest h4 { color: #748ffc; }
+      #interest-open { cursor: pointer ;}
       #i-outbox { padding: 5px; position: relative; }
       #i-boxes { padding-top: 10px; margin: auto; width: 80%; }
       #i-boxes #i-box {
