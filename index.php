@@ -43,8 +43,8 @@
         </p>
       </div>
       <!-- My interest -->  
-      <div class="container-sm" id="c-interest">
-        <h4>My interest</h4>
+      <div class="container-sm" id="c-interest" data-aos="zoom-in" data-aos-duration="2000" class="aos-init">
+        <h4 >My interest</h4>
         <!-- Boxes -->
         <div class="row" id="i-boxes">
           <?php
@@ -55,9 +55,9 @@
           for ($x = 0; $x < count($myInterest); $x++) {
             // Set animation side
             if ($x % 2 == 0) {
-              echo '<div class="col-lg-6" id="i-outbox">';
+              echo '<div class="col-lg-6 box" id="i-outbox" data-aos="fade-right" data-aos-duration="2000">';
             } else {
-              echo '<div class="col-lg-6" id="i-outbox">';
+              echo '<div class="col-lg-6" id="i-outbox" data-aos="fade-left" data-aos-duration="2000">';
             }
             // Display rest of images + text 
           ?>  
@@ -77,6 +77,7 @@
     <!-- Footer -->
     <?php include("footer.php"); ?>
   </div>
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script> AOS.init(); </script>
 </body>
 </html>
