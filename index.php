@@ -64,7 +64,7 @@
           <div class="col-lg-6 box" id="i-outbox" data-aos="fade-<?php echo $myInterest[$x]["animation"]; ?>" data-aos-duration="2000">
             <div id="i-box">
               <img src="images/pic_<?php echo $x+1; ?>.jpg" width="100%" height="100%">
-              <a id="interest-open"><div class="i-overlay">
+              <a id="interest-open" data-toggle="modal" data-target="#myModal"><div class="i-overlay">
                   <div class="i-text">
                     <?php echo $myInterest[$x]["name"]; ?>
                   </div>
@@ -74,6 +74,26 @@
         <?php } ?>  <!-- close For Loop -->
       </div>        <!-- end of my interest -->
     </div>          <!-- end of content area -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="myModal">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Footer -->
     <?php include("footer.php"); ?>

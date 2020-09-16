@@ -49,6 +49,7 @@ Global Settings
     border-radius: 3px;
     padding: 5px 10px;
     text-decoration: none;
+    outline: none !important;
    }
     button:hover {
         background-color: white;
@@ -202,6 +203,15 @@ Content Wrapper
         transform: translate(-50%, -50%);
         text-align: center;
       }
+
+/********************************************************************************
+Modal
+*********************************************************************************/
+  /* Remove scroll on modal */
+  body.modal-open {
+    overflow: visible;
+  }
+  
 /********************************************************************************
 Footer
 *********************************************************************************/  
