@@ -48,24 +48,25 @@
         <!-- Boxes -->
         <div class="row" id="i-boxes">
           <?php
-          // Create array of all my interest
-          $myInterest = array("Gaming", "Programming", "Coffee", "Spirituality");
+          // Create array that will hold my interest
+          $myInterest = array();
+
+          // Assign my interest to the new array
+          $myInterest[] = array("name" => "Gaming", "description" => "", "animation" => "right");
+          $myInterest[] = array("name" => "Programming", "description" => "", "animation" => "left");
+          $myInterest[] = array("name" => "Coffee", "description" => "", "animation" => "right");
+          $myInterest[] = array("name" => "Spirituality", "description" => "", "animation" => "left");
 
           // Loop until end of array
           for ($x = 0; $x < count($myInterest); $x++) {
-            // Set animation side
-            if ($x % 2 == 0) {
-              echo '<div class="col-lg-6 box" id="i-outbox" data-aos="fade-right" data-aos-duration="2000">';
-            } else {
-              echo '<div class="col-lg-6" id="i-outbox" data-aos="fade-left" data-aos-duration="2000">';
-            }
             // Display rest of images + text 
           ?>  
+          <div class="col-lg-6 box" id="i-outbox" data-aos="fade-<?php echo $myInterest[$x]["animation"]; ?>" data-aos-duration="2000">
             <div id="i-box">
               <img src="images/pic_<?php echo $x+1; ?>.jpg" width="100%" height="100%">
               <div class="i-overlay">
                   <div class="i-text">
-                    <?php echo $myInterest[$x]; ?>
+                    <?php echo $myInterest[$x]["name"]; ?>
                   </div>
               </div>
             </div>  <!-- end of i-box -->
