@@ -48,10 +48,10 @@
         <!-- Boxes -->
         <div class="row" id="i-boxes">
           <?php
-          // Create array that will hold my interest
+          // Create array that will hold all my interests
           $myInterest = array();
 
-          // Assign my interest to the new array
+          // Assign my interests to the new array
           $myInterest[] = array("name" => "Gaming", "description" => "", "animation" => "right");
           $myInterest[] = array("name" => "Programming", "description" => "", "animation" => "left");
           $myInterest[] = array("name" => "Coffee", "description" => "", "animation" => "right");
@@ -59,28 +59,90 @@
 
           // Loop until end of array
           for ($x = 0; $x < count($myInterest); $x++) {
-            // Display rest of images + text 
+            /*
+            * In the for loop:
+            *  > It will assign the proper animation to the div
+            *  > Assign the appropriate name & picture to display
+            *  > Assign a unique Modal ID. I.e myModal-1,myModal-2...etc 
+            */
           ?>  
           <div class="col-lg-6 box" id="i-outbox" data-aos="fade-<?php echo $myInterest[$x]["animation"]; ?>" data-aos-duration="2000">
             <div id="i-box">
               <img src="images/pic_<?php echo $x+1; ?>.jpg" width="100%" height="100%">
-              <a id="interest-open" data-toggle="modal" data-target="#myModal"><div class="i-overlay">
+              <a id="interest-open" data-toggle="modal" data-target="#myModal<?php echo "-$x";?>"><div class="i-overlay">
                   <div class="i-text">
                     <?php echo $myInterest[$x]["name"]; ?>
                   </div>
               </div></a>
             </div>  <!-- end of i-box -->
         </div>      <!-- end of row -->
-        <?php } ?>  <!-- close For Loop -->
+        <?php } ?>  <!-- close 'For Loop' -->
       </div>        <!-- end of my interest -->
     </div>          <!-- end of content area -->
 
     <!-- Modal #1 -->
-    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModal" aria-hidden="true">
+    <div class="modal fade" id="myModal-0" tabindex="-1" aria-labelledby="myModal" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="myModal">Modal title</h5>
+            <h5 class="modal-title" id="myModal">Modal title1</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...  
+          </div>
+          <div class="modal-footer">
+            <button type="button" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal #2 -->
+    <div class="modal fade" id="myModal-1" tabindex="-1" aria-labelledby="myModal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="myModal">Modal title2</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...  
+          </div>
+          <div class="modal-footer">
+            <button type="button" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal #3-->
+    <div class="modal fade" id="myModal-2" tabindex="-1" aria-labelledby="myModal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="myModal">Modal title3</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...  
+          </div>
+          <div class="modal-footer">
+            <button type="button" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal #4 -->
+    <div class="modal fade" id="myModal-3" tabindex="-1" aria-labelledby="myModal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="myModal">Modal title4</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
