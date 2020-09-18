@@ -75,7 +75,7 @@
       </div>        <!-- end of my interest -->
     </div>          <!-- end of content area -->
 
-    <!-- Modal -->
+    <!-- Modal #1 -->
     <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModal" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">

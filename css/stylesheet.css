@@ -39,7 +39,7 @@ Global Settings
   
   html { overflow-x: hidden; }  
 
-  body, html { height: 100%; margin: 0; max-width: 100%; }
+  body, html { margin: 0; max-width: 100%; }
 
   /* Button */
   button {
@@ -207,10 +207,6 @@ Content Wrapper
 /********************************************************************************
 Modal
 *********************************************************************************/
-  /* Remove scroll on modal */ 
-  body.modal-open {
-    overflow: visible;
-  } 
 
 /********************************************************************************
 Footer
