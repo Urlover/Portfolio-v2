@@ -38,14 +38,14 @@
       <div class="c-aboutMe">
         <h4 class="slide-in-bottom-d">A little about me</h4>
         <p class="slide-in-bottom-d2">I'm currently a Computer Science student attending my third year at Algonquin College. 
-          Through the past years, I have been taught many things that have propelled me to write
+          Throughout the past years, I have been taught many things that have propelled me to write
           efficient code in order to create or problem solve. With consistency and persistence, I always
           continue to learn more about this beautiful world of code.
         </p>
       </div>
       <!-- My interest -->  
       <div class="container-sm" id="c-interest" data-aos="zoom-in" data-aos-duration="2000" class="aos-init">
-        <h4 >My interest</h4>
+        <h4 >My interests</h4>
         <!-- Boxes -->
         <div class="row" id="i-boxes">
           <?php
@@ -83,77 +83,48 @@
 
     <!-- Modal #1 -->
     <div class="modal fade" id="myModal-0" tabindex="-1" aria-labelledby="myModal" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Gaming</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <i class="fas fa-dot-circle fa-lg"></i>
-            <h2></h2>
-          </div>
-          <div class="modal-footer">
-            <button type="button" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Modal #2 -->
-    <div class="modal fade" id="myModal-1" tabindex="-1" aria-labelledby="myModal" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="myModal">Programming</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            ...  
-          </div>
-          <div class="modal-footer">
-            <button type="button" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Modal #3-->
-    <div class="modal fade" id="myModal-2" tabindex="-1" aria-labelledby="myModal" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="myModal">Coffee</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            ...  
-          </div>
-          <div class="modal-footer">
-            <button type="button" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Modal #4 -->
-    <div class="modal fade" id="myModal-3" tabindex="-1" aria-labelledby="myModal" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="myModal">Spirituality</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            ...  
-          </div>
-          <div class="modal-footer">
-            <button type="button" data-dismiss="modal">Close</button>
+      <div class="container-fluid">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Gaming</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                My beautiful computer setup that was built from scratch and with love by me.
+              </p>
+              <!-- Row #1 -->
+              <div class="row">
+                <div class="col-1"><i class="fas fa-dot-circle fa-lg"></i></div>
+                <div class="col-11"><h6>Specifications</h6></div>
+              </div>  
+              <div class="row">
+                <div class="col-1 m-col-1"><!-- Empty div --></div>
+                <div class="col-11 m-col-2">
+                  <p>
+                    CPU - AMD Ryzen 5 2600<br>CPU Cooler - Thermaltake AIO Water 3.0 240 ARGB<br>GPU - ASUS GTX 1650 Super<br>
+                    Motherboard - Astrock B450M-HDV R4.0<br>RAM - Corsair Vegeance LPX 16GB 3200MHz DDR4<br>
+                    SSD 1 (OS) - WD Black SN750 250GB NVMe M.2 2280<br>SSD 2 - Samsung 860 EVO 1TB<br>
+                    Case + PSU - Thermaltake H17<br>Fans - Thermaltake Pure Plus 12 RGB 120mm (x2)<br>
+                  </p>
+                </div>
+              </div>   
+              <!-- Row #2 -->      
+              <div class="row">
+                <div class="col-1"><i class="fas fa-dot-circle fa-lg"></i></div>
+                <div class="col-11"><h6>Favorite game</h6></div>
+              </div>     
+              <div class="row">
+                <div class="col-1"><!-- Empty div --></div>
+                <div class="col-11"><p>Counter-Strike Global Offensive</p></div>
+              </div>  
+            </div>
+            <div class="modal-footer">
+              <button type="button" data-dismiss="modal">Close</button>
+            </div>
           </div>
         </div>
       </div>

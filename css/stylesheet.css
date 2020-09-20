@@ -208,12 +208,14 @@ Content Wrapper
 /********************************************************************************
 Modal
 *********************************************************************************/
-/* Move modal down */
-.modal { margin-top: 200px; }
-.modal i { color: #748ffc; }
-.modal-body { text-align: left; }
-.modal-body i { font-size: 0.6rem; }
-/********************************************************************************
+  .modal { margin-top: 200px; }       /* Move modal down */
+  .modal i { color: #748ffc; }
+  .modal h5 { font-weight: 700; }
+  .modal h6 { font-weight: 600; font-size: 14px; padding: 5px; margin: 0; }
+  .modal p { font-size: 14px; padding-left: 5px; }
+  .modal-body { text-align: left; }
+  .modal-body i { font-size: 0.6rem; }
+  /********************************************************************************
 Footer
 *********************************************************************************/  
   .footer { 
