@@ -24,6 +24,7 @@
     <div class="container-sm" id="err_wrapper">
         <h1>404</h1>
         <h2>Oooops! The page you're looking for doesn't exists.</h2>
+        <h6>Press the button below to return to the Homepage.</h6>
         <a href="index.php"><button type="button">Return</button></a>
     </div>
 </body>

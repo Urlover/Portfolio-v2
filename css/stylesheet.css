@@ -34,7 +34,7 @@ Global Settings
       background: #555; 
     }
 
-  h1, h2, h3, h4, p { 
+  h1, h2, h3, h4, h5, h6, p { 
       color: #868e96;
     }
   
@@ -232,9 +232,9 @@ Footer
   #err_wrapper {
     position: relative;
     top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    -webkit-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
     text-align: center;
   }
     #err_wrapper h1 { 
@@ -244,6 +244,10 @@ Footer
     #err_wrapper h2 { 
       font-weight: 400;
       font-size: 25px;
+    }
+    #err_wrapper h6 { 
+      font-weight: 400;
+      font-size: 18px;
     }
     #err_wrapper button {
       padding: 15px 35px;
