@@ -94,7 +94,7 @@
             </div>
             <div class="modal-body">
               <p>
-                My beautiful computer setup that was built from scratch and with love by me.
+                My beautiful computer setup that I built from scratch and with love.
               </p>
               <!-- Row #1 -->
               <div class="row">

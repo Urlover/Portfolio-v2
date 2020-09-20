@@ -37,10 +37,8 @@ Global Settings
   h1, h2, h3, h4, h5, h6, p { 
       color: #868e96;
     }
-  
-  html { overflow-x: hidden; }  
 
-  body, html { margin: 0; max-width: 100%; }
+  body, html { margin: 0; max-width: 100%; overflow-x: hidden; }
 
   /* Button */
   button {
@@ -208,7 +206,7 @@ Content Wrapper
 /********************************************************************************
 Modal
 *********************************************************************************/
-  .modal { margin-top: 200px; }       /* Move modal down */
+  .modal {  }       /* Move modal down */
   .modal i { color: #748ffc; }
   .modal h5 { font-weight: 700; color: black;}
   .modal h6 { font-weight: 600; font-size: 14px; color: black; padding: 5px; margin: 0; }
