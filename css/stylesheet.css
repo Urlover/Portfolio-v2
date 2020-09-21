@@ -13,6 +13,7 @@ from: https://yeun.github.io/open-color/
 Global Settings
 *********************************************************************************/
   * {
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
   }
   /* Scroll bar from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_scrollbar */
@@ -33,13 +34,11 @@ Global Settings
       background: #555; 
     }
 
-  h1, h2, h3, h4, p { 
+  h1, h2, h3, h4, h5, h6, p { 
       color: #868e96;
     }
-  
-  html { overflow-x: hidden; }  
 
-  body, html { height: 100%; margin: 0; max-width: 100%; }
+  body, html { margin: 0; max-width: 100%; overflow-x: hidden; }
 
   /* Button */
   button {
@@ -92,7 +91,7 @@ Social Icon bar Wrapper
       }
    /* Vertical lines */
   .vl { 
-      height: 250px; 
+      height: 150px; 
       border-left: 2px solid #ced4da;   
       margin-left: 15px;
       
@@ -207,12 +206,14 @@ Content Wrapper
 /********************************************************************************
 Modal
 *********************************************************************************/
-  /* Remove scroll on modal */ 
-  body.modal-open {
-    overflow: visible;
-  } 
-
-/********************************************************************************
+  .modal {  }       /* Move modal down */
+  .modal i { color: #748ffc; }
+  .modal h5 { font-weight: 700; color: black;}
+  .modal h6 { font-weight: 600; font-size: 14px; color: black; padding: 5px; margin: 0; }
+  .modal p { font-size: 14px; padding-left: 5px; }
+  .modal-body { text-align: left; }
+  .modal-body i { font-size: 0.6rem; }
+  /********************************************************************************
 Footer
 *********************************************************************************/  
   .footer { 
@@ -229,9 +230,9 @@ Footer
   #err_wrapper {
     position: relative;
     top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    -webkit-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
     text-align: center;
   }
     #err_wrapper h1 { 
@@ -241,6 +242,10 @@ Footer
     #err_wrapper h2 { 
       font-weight: 400;
       font-size: 25px;
+    }
+    #err_wrapper h6 { 
+      font-weight: 400;
+      font-size: 18px;
     }
     #err_wrapper button {
       padding: 15px 35px;
