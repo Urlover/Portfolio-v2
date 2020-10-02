@@ -1,4 +1,4 @@
 <div align="center">
-    # [jonahlouis.ca](https://jonahlouis.ca) V2 
+    <h1><a href="https://jonahlouis.ca">jonahlouis.ca</a> - V2</h1>
 </div>    
 
