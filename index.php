@@ -130,6 +130,62 @@
       </div>
     </div>
 
+    
+    <!-- Modal #2 -->
+    <div class="modal fade" id="myModal-1" tabindex="-1" aria-labelledby="myModal" aria-hidden="true">
+      <div class="container-fluid">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Programming</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                What I've used & learned so far.
+              </p>
+              <!-- Row #1 -->
+              <div class="row">
+                <div class="col-1"><i class="fas fa-dot-circle fa-lg"></i></div>
+                <div class="col-10"><h6>Software Programming</h6></div>
+              </div>  
+              <div class="row">
+                <div class="col-1 m-col-1"><!-- Empty div --></div>
+                <div class="col-10 m-col-2">
+                  <p>
+                    Java<br>C/C#/C++<br>Arduino
+                  </p>
+                </div>
+              </div>   
+              <!-- Row #2 -->      
+              <div class="row">
+                <div class="col-1"><i class="fas fa-dot-circle fa-lg"></i></div>
+                <div class="col-10"><h6>Web Development</h6></div>
+              </div>     
+              <div class="row">
+                <div class="col-1"><!-- Empty div --></div>
+                <div class="col-10"><p>HTML<br>CSS<br>Javascript<br>PHP<br>SQL</p></div>
+              </div>  
+              <!-- Row #3 -->      
+              <div class="row">
+                <div class="col-1"><i class="fas fa-dot-circle fa-lg"></i></div>
+                <div class="col-10"><h6>Frameworks & Libraries</h6></div>
+              </div>     
+              <div class="row">
+                <div class="col-1"><!-- Empty div --></div>
+                <div class="col-10"><p>Bootstrap<br>Java Swing<br>JavaFX</p></div>
+              </div> 
+            </div> <!-- End of modal body -->
+            <div class="modal-footer">
+              <button type="button" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Footer -->
     <?php include("footer.php"); ?>
   </div>
