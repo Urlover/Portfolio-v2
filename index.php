@@ -53,7 +53,7 @@
           $myInterest = array();
 
           // Assign my interests to the new array
-          $myInterest[] = array("name" => "Gaming", "description" => "", "animation" => "right");
+          $myInterest[] = array("name" => "Computers", "description" => "", "animation" => "right");
           $myInterest[] = array("name" => "Programming", "description" => "", "animation" => "left");
           $myInterest[] = array("name" => "Coffee", "description" => "", "animation" => "right");
           $myInterest[] = array("name" => "Spirituality", "description" => "", "animation" => "left");
@@ -87,7 +87,7 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Gaming</h5>
+              <h5 class="modal-title">Computers</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
