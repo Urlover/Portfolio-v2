@@ -395,3 +395,6 @@ Responsive queries
     .page-wrapper { max-width: 90%;}
     .c-aboutMe { width: 60%; }
   }
+
+  .modal-body .col-1 {  }
+  .modal-body .col-10 {   padding: 0; }

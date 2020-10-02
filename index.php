@@ -99,11 +99,11 @@
               <!-- Row #1 -->
               <div class="row">
                 <div class="col-1"><i class="fas fa-dot-circle fa-lg"></i></div>
-                <div class="col-11"><h6>Specifications</h6></div>
+                <div class="col-10"><h6>Specifications</h6></div>
               </div>  
               <div class="row">
                 <div class="col-1 m-col-1"><!-- Empty div --></div>
-                <div class="col-11 m-col-2">
+                <div class="col-10 m-col-2">
                   <p>
                     CPU - AMD Ryzen 5 2600<br>CPU Cooler - Thermaltake AIO Water 3.0 240 ARGB<br>GPU - ASUS GTX 1650 Super<br>
                     Motherboard - Astrock B450M-HDV R4.0<br>RAM - Corsair Vegeance LPX 16GB 3200MHz DDR4<br>
@@ -115,11 +115,11 @@
               <!-- Row #2 -->      
               <div class="row">
                 <div class="col-1"><i class="fas fa-dot-circle fa-lg"></i></div>
-                <div class="col-11"><h6>Favorite game</h6></div>
+                <div class="col-10"><h6>Favorite game</h6></div>
               </div>     
               <div class="row">
                 <div class="col-1"><!-- Empty div --></div>
-                <div class="col-11"><p>Counter-Strike Global Offensive</p></div>
+                <div class="col-10"><p>Counter-Strike Global Offensive</p></div>
               </div>  
             </div>
             <div class="modal-footer">
