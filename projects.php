@@ -37,7 +37,7 @@
           $projects = array();
 
           // Give array values
-          $projects[] = array("name" => "Overhaul.design", "description" => "Designed & created the website for our web agency business.", 
+          $projects[] = array("name" => "Overhaul.design", "description" => "Develop & maintan websites for our web agency business.", 
                               "link" => "https://overhaul.design/", "logo" => "fab fa-wordpress-simple fa-4x", "animation" => "left");
 
           // Loop until end of array
