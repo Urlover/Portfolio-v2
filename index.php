@@ -144,7 +144,7 @@
             </div>
             <div class="modal-body">
               <p>
-                What I've used & learned so far.
+                What I use & what I've learned so far.
               </p>
               <!-- Row #1 -->
               <div class="row">
