@@ -105,10 +105,10 @@
                 <div class="col-1 m-col-1"><!-- Empty div --></div>
                 <div class="col-10 m-col-2">
                   <p>
-                    CPU - AMD Ryzen 5 2600<br>CPU Cooler - Thermaltake AIO Water 3.0 240 ARGB<br>GPU - ASUS GTX 1650 Super<br>
-                    Motherboard - Astrock B450M-HDV R4.0<br>RAM - Corsair Vegeance LPX 16GB 3200MHz DDR4<br>
-                    SSD 1 (OS) - WD Black SN750 250GB NVMe M.2 2280<br>SSD 2 - Samsung 860 EVO 1TB<br>
-                    Case + PSU - Thermaltake H17<br>Fans - Thermaltake Pure Plus 12 RGB 120mm (x2)<br>
+                    <b>CPU</b> - AMD Ryzen 5 2600<br><b>CPU Cooler</b> - Thermaltake AIO Water 3.0 240 ARGB<br><b>GPU</b> - ASUS GTX 1650 Super<br>
+                    <b>Motherboard</b> - Astrock B450M-HDV R4.0<br><b>RAM</b> - Corsair Vegeance LPX 16GB 3200MHz DDR4<br>
+                    <b>SSD 1 (OS)</b> - WD Black SN750 250GB NVMe M.2 2280<br><b>SSD 2</b> - Samsung 860 EVO 1TB<br>
+                    <b>Case + PSU</b> - Thermaltake H17<br><b>Fans</b> - Thermaltake Pure Plus 12 RGB 120mm (x2)<br>
                   </p>
                 </div>
               </div>   

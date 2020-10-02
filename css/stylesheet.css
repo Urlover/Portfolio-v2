@@ -213,6 +213,7 @@ Modal
   .modal p { font-size: 14px; padding-left: 5px; }
   .modal-body { text-align: left; }
   .modal-body i { font-size: 0.6rem; }
+  .modal-body b { font-weight: 300; color: #0ca678; }
   /********************************************************************************
 Footer
 *********************************************************************************/  
