@@ -228,11 +228,7 @@ Footer
 404 Page
 *********************************************************************************/
   #err_wrapper {
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(50%);
-    -ms-transform: translateY(50%);
-    transform: translateY(50%);
+    margin-top: 150px;
     text-align: center;
   }
     #err_wrapper h1 { 
@@ -242,10 +238,6 @@ Footer
     #err_wrapper h2 { 
       font-weight: 400;
       font-size: 25px;
-    }
-    #err_wrapper h6 { 
-      font-weight: 400;
-      font-size: 18px;
     }
     #err_wrapper button {
       padding: 15px 35px;
@@ -362,13 +354,14 @@ Responsive queries
   /* Extra small devices (phones, 575px and down) */
   @media only screen and (max-width: 575px) {
     .page-wrapper { max-width: 95%;}
-  .navbar img { margin-bottom: 0; } 
+    .navbar img { margin-bottom: 0; } 
     .social-bar { display: none;}
     #navbarToggler { background-color: #ced4da2c; } /* Gray 4 transparent */
     .c-aboutMe { width: 90%; }
     #i-boxes { width: 100%;}
     #i-boxes #i-box { height: 250px; }
-    #err_wrapper h1 { font-size: 150px; }
+    #err_wrapper { margin-top: 100px; }
+    #err_wrapper h1 { font-size: 125px; }
     #err_wrapper button { padding: 10px 25px; }
   }
 
