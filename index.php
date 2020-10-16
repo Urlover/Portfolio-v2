@@ -31,20 +31,20 @@
     <div class="container-sm" id="content">
       <!-- Introduction -->
       <div class="c-intro">
-          <h1 class="slide-in-bottom">Hi, I'm <span id="cHeader1-font1">Jonah.</span></h1>
-          <h2 class="slide-in-bottom-2"><span id="cHeader2-font1">I love to create </span>websites & applications.</h2>
+          <h1>Hi, I'm <span id="cHeader1-font1">Jonah.</span></h1>
+          <h2><span id="cHeader2-font1">I love to create </span>websites & applications.</h2>
         </div>
       <!-- About me -->
       <div class="c-aboutMe">
-        <h4 class="slide-in-bottom-d">A little about me</h4>
-        <p class="slide-in-bottom-d2">I'm currently a Computer Science student attending my third year at Algonquin College. 
+        <h4>A little about me</h4>
+        <p>I'm currently a Computer Science student attending my third year at Algonquin College. 
           Throughout the past years, I have been taught many things that have propelled me to write
           efficient code in order to create or problem solve. With consistency and persistence, I always
           continue to learn more about this beautiful world of code.
         </p>
       </div>
       <!-- My interest -->  
-      <div class="container-sm" id="c-interest" data-aos="zoom-in" data-aos-duration="2000" class="aos-init">
+      <div class="container-sm" id="c-interest">
         <h4 >My interests</h4>
         <!-- Boxes -->
         <div class="row" id="i-boxes">
@@ -67,7 +67,7 @@
             *  > Assign a unique Modal ID. I.e myModal-1,myModal-2...etc 
             */
           ?>  
-          <div class="col-lg-6 box" id="i-outbox" data-aos="fade-<?php echo $myInterest[$x]["animation"]; ?>" data-aos-duration="2000">
+          <div class="col-lg-6 box" id="i-outbox">
             <div id="i-box">
               <img src="images/pic_<?php echo $x+1; ?>.jpg" width="100%" height="100%">
               <a id="interest-open" data-toggle="modal" data-target="#myModal<?php echo "-$x";?>"><div class="i-overlay">
@@ -189,7 +189,5 @@
     <!-- Footer -->
     <?php include("footer.php"); ?>
   </div>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script> AOS.init(); </script>
 </body>
 </html>

@@ -29,7 +29,7 @@
 
   <!-- Projects content -->
     <div class="container-sm" id="projects-content">
-        <div class="c-intro-2 "><h1 data-aos="fade-up" data-aos-duration="2000">My Latest Projects</h1></div>
+        <div class="c-intro-2 "><h1>My Latest Projects</h1></div>
         <!-- Display of projects -->
         <div class="row">
         <?php
@@ -44,7 +44,7 @@
           for ($x = 0; $x < count($projects); $x++) {          
         ?>
         <!-- Projects -->
-          <div class="col-sm-9 project-box" id="p-padding" data-aos="fade-<?php echo $projects[$x]["animation"]; ?>" data-aos-duration="2000">
+          <div class="col-sm-9 project-box" id="p-padding">
             <h2><?php echo $projects[$x]["name"]; ?></h2>
             <p><?php echo $projects[$x]["description"]; ?></p>
             <!-- Showcase -->
@@ -73,7 +73,5 @@
     <?php include("footer.php"); ?>
 
   </div> <!-- end of page wrapper-->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script> AOS.init(); </script>
 </body>
 </html>
