@@ -42,8 +42,8 @@ Global Settings
 
   /* Button */
   button {
-    background-color: #748ffc;         
-    border: 2px solid #748ffc;         
+    background-color: #748ffca1;         
+    border: 2px solid #748ffca1;         
     color: white;
     border-radius: 3px;
     padding: 5px 10px;
@@ -53,16 +53,16 @@ Global Settings
     button:hover {
         background-color: white;
         color: #748ffc;                     
-        border: 2px solid #748ffc;          
+        border: 2px solid #748ffca1;          
     }
   ::-moz-selection { /* Code for Firefox */
     color: white;
-    background: #748ffc
+    background: #748ffca1
   }
 
   ::selection {
     color: white;
-    background: #748ffc;
+    background: #748ffca1;
   }
 
 /********************************************************************************
@@ -135,28 +135,48 @@ Content Wrapper
   #content { text-align: center; }
 
 /* Introduction box */    
-    .c-intro { padding-top: 85px; padding-bottom: 125px; }
+    .c-intro { padding-top: 85px; padding: 200px 0; }
 
       .c-intro h1 { 
-          font-size: 50px; 
+          font-size: 60px; 
           font-weight: 300;
         }
       #cHeader1-font1 { 
         color:#748ffc;  
-        font-size: 50px;
-        font-weight: 400;
+        font-size: 60px;
+        font-weight: 300;
       }
       .c-intro h2 { 
-        font-size: 30px; 
+        font-size: 40px; 
         font-weight: 300;
+        padding-bottom: 50px;
       }
       #cHeader2-font1 { 
         color:#748ffc;  
-        font-size: 30px; 
+        font-size: 40px; 
         font-weight: 300;
       }
+
+      .cBtns { 
+        width: 425px; 
+        margin: auto;
+        background-color: #748ffc50;
+        border-radius: 50px;
+        padding: 7px 0;
+      }
+      .cBtn {  
+        border-radius: 3px;
+        background-color: #748ffc00;
+        border: 2px solid #748ffc00 !important;
+        color:#748ffc;
+        font-weight: 600;
+        font-size: 15px;
+      }
+        .cBtn:hover {
+          background-color: #748ffc31;
+        }
 /* About me box */
-    .c-aboutMe { margin: auto; padding-bottom: 125px; }
+    .c-aboutMe { margin: auto; padding-bottom: 150px; }
 
       .c-aboutMe h4 { color: #748ffc;}
 /* My interest box */
@@ -219,7 +239,7 @@ Footer
 *********************************************************************************/  
   .footer { 
       width: 100%;
-      padding: 10px;
+      padding: 50px 10px 15px 10px;
       text-align: center;
   }
     .footer i { color: #748ffc; }

@@ -33,6 +33,10 @@
       <div class="c-intro">
           <h1>Hi, I'm <span id="cHeader1-font1">Jonah.</span></h1>
           <h2><span id="cHeader2-font1">I love to create </span>websites & applications.</h2>
+          <div class="cBtns">
+            <a href=""><button type="button" class="cBtn">Start a Project</button></a>
+            <a href=""><button type="button" class="cBtn">My Current Plans</button></a>  
+          </div>
         </div>
       <!-- About me -->
       <div class="c-aboutMe">
