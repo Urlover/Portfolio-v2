@@ -178,11 +178,18 @@ Content Wrapper
       }
 
       .cBtns { 
-        width: 425px; 
+        width: 425px;
+        height: 50px; 
         margin: auto;
         background-color: #748ffc50;
         border-radius: 50px;
         padding: 7px 0;
+        overflow: auto;
+        
+      }
+        .cBtns::-webkit-scrollbar {
+          width: 0px;                 /* Remove scrollbar space */
+          background: transparent;  
       }
       .cBtn {  
         border-radius: 3px;
@@ -222,59 +229,8 @@ Content Wrapper
       .skill-lang i { 
         color: #d0bfff !important;
       }
-
-      #interest-open { cursor: pointer ;}
-      #i-outbox { padding: 5px; position: relative; }
-      #i-boxes { padding-top: 10px; margin: auto; width: 80%; }
-      #i-boxes #i-box {
-        text-align: center;
-        height: 350px;
-        padding: 0px;
-        color: white;
-      }
-      /* 
-      Image overlay from:
-      https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
-      (EDITED)
-      */
-      .i-overlay {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
-        width: 100%;
-        opacity: 0;
-        transition: .5s ease;
-        background-color: #748ffcad;
-        background-color: rgba(116, 143, 252, 0.68);  /* For IE & Edge */
-      }
-      #i-box:hover .i-overlay { opacity: 1; }
-      .i-text { 
-        color: white;
-        font-size: 20px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center;
-      }
-
+  
 /********************************************************************************
-Modal
-*********************************************************************************/
-  .modal {  }       /* Move modal down */
-  .modal i { color: #748ffc; }
-  .modal h5 { font-weight: 700; color: black;}
-  .modal h6 { font-weight: 600; font-size: 14px; color: black; padding: 5px; margin: 0; }
-  .modal p { font-size: 14px; padding-left: 5px; }
-  .modal-body { text-align: left; }
-  .modal-body i { font-size: 0.6rem; }
-  .modal-body b { font-weight: 300; color: #0ca678; }
-  /********************************************************************************
 Footer
 *********************************************************************************/  
   .footer { 
@@ -396,14 +352,22 @@ Responsive queries
 *********************************************************************************/
   /* Extra small devices (phones, 575px and down) */
   @media only screen and (max-width: 575px) {
-    .cBtns { width: 335px; }
     .page-wrapper { max-width: 95%;}
+    #content { padding: 0 10px; }
     .navbar img { margin-bottom: 0; } 
     .social-bar { display: none;}
     #navbarToggler { background-color: #ced4da2c; } /* Gray 4 transparent */
-    #c-text-box { width: 90%; }
-    #i-boxes { width: 100%;}
-    #i-boxes #i-box { height: 250px; }
+    .c-intro { padding: 100px 0 100px 0; }
+    .c-intro h1 { font-size: 35px; }
+    #cHeader1-font1 {  font-size: 35px; }
+    .c-intro h2 { font-size: 25px; }
+    #cHeader2-font1 { font-size:25px; }
+    .cBtns { width: 280px; }
+    .uni-subHeader { font-size: 22px; }
+    .c-aboutMe { padding: 50px 0; }
+    .c-skill { padding: 50px 0; }
+    #c-text-box { width: 100%; }
+    .c-text { font-size: 18px; }
     #err_wrapper { margin-top: 100px; }
     #err_wrapper h1 { font-size: 125px; }
     #err_wrapper button { padding: 10px 25px; }
@@ -413,21 +377,18 @@ Responsive queries
   @media only screen and (min-width: 576px) {
     .page-wrapper { max-width: 95%; }
     #c-text-box { width: 80%; }
-    #i-boxes { width: 90%;}
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
     .page-wrapper { max-width: 95%;}
     #c-text-box { width: 70%; }
-    #i-boxes { width: 70%;}
   } 
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
     .page-wrapper { max-width: 90%;}
     #c-text-box { width: 60%; }
-    #i-boxes { width: 90%; }
   } 
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -435,6 +396,3 @@ Responsive queries
     .page-wrapper { max-width: 90%;}
     #c-text-box { width: 60%; }
   }
-
-  .modal-body .col-1 {  }
-  .modal-body .col-10 {   padding: 0; }
