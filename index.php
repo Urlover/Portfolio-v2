@@ -40,17 +40,72 @@
         </div>
       <!-- About me -->
       <div class="c-aboutMe">
-        <div class="c-aboutMe-box">
-          <h4 class="uni-subHeader">A little about me</h4>
-          <p>I'm currently a Computer Science student attending my third year at Algonquin College. 
-            Throughout the past years, I have been taught many things that have propelled me to write
-            efficient code in order to create or problem solve. With consistency and persistence, I always
-            continue to learn more about this beautiful world of code.
+        <div id="c-text-box">
+          <h4 class="uni-subHeader">A little introduction</h4>
+          <!-- TODO: Talk about what I want to do and where im heading -->
+          <p class="c-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Corporis nesciunt animi expedita facilis alias quis assumenda nobis in porro. 
+            Perspiciatis optio vitae aliquid provident.
           </p>
         </div>
       </div>
-      <!-- My interest -->  
-     
+      <!-- My Skills/What I do --> 
+      <div class="c-skill">
+        <div class="skill2" id="c-text-box">
+            <h1 class="uni-subHeader">I build things for the web</h1>
+            <p class="c-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor expedita 
+              animi magnam quibusdam suscipit, quam voluptatibus deleniti, dolore, repellendus natus vel sed voluptatem facilis vitae!
+              <br /><br />
+              Web technologies I work with:
+            </p>
+            <div class="row">
+              <div class="col-4 skill-lang">
+                <p>
+                  <i class="fas fa-circle-notch"></i> HTML <br />
+                  <i class="fas fa-circle-notch"></i> CSS <br />
+                  <i class="fas fa-circle-notch"></i> JS <br />
+                  <i class="fas fa-circle-notch"></i> PHP <br />
+                  <i class="fas fa-circle-notch"></i> SQL <br />
+                </p>
+              </div>
+              <div class="col-8 skill-framew">
+                <p>
+                  <i class="far fa-circle"></i> Boostrap <br />
+                  <i class="far fa-circle"></i> WordPress <br />
+                  <i class="far fa-circle"></i> Divi <br />
+                </p>
+              </div>
+            </div>
+        </div>
+      </div> 
+      <div class="c-skill">
+        <div class="skill1" id="c-text-box">
+            <h1 class="uni-subHeader">I make software & problem solve</h1>
+            <p class="c-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nulla harum itaque deleniti 
+              dicta possimus voluptatum! Aut nam eligendi ullam, voluptates magnam molestiae cumque inventore. Est!
+              <br /><br />
+              Software technologies I work with:
+            </p>
+            <div class="row">
+              <div class="col-4 skill-lang">
+                <p>
+                  <i class="fas fa-circle-notch"></i> Java <br />
+                  <i class="fas fa-circle-notch"></i> C <br />
+                  <i class="fas fa-circle-notch"></i> C++ <br />
+                  <i class="fas fa-circle-notch"></i> Arduino <br />
+                </p>
+              </div>
+              <div class="col-6 skill-framew">
+                <p>
+                  <i class="far fa-circle"></i> Java Swing <br />
+                  <i class="far fa-circle"></i> JavaFX <br />
+                </p>
+              </div>
+            </div>
+        </div>
+      </div>     
 
     <!-- Footer -->
     <?php include("footer.php"); ?>

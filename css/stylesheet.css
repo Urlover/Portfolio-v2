@@ -75,6 +75,12 @@ Global Settings
     color: #748ffc;  
   }
 
+  /* Universal text area */
+  .c-text {
+    padding-top: 15px; 
+    font-size: 20px;
+  }  
+
 /********************************************************************************
 Full Page Wrapper
 *********************************************************************************/
@@ -196,13 +202,24 @@ Content Wrapper
       width: 100%;
       border-top: 1px solid #748ffc;
     }
-    .c-aboutMe p {
-      padding-top: 15px; 
-      font-size: 18px;
-    }  
-/* My interest box */
-    #c-interest { 
+/* My Skills */
+    .c-skill { 
+      padding: 150px 0; 
     }
+      .skill1 {
+        text-align: left;
+      }  
+      .skill2{
+        margin: auto;
+        text-align: left;
+      }
+      .skill-framew i { 
+        color: #96f2d7 !important;
+      }
+      .skill-lang i { 
+        color: #d0bfff !important;
+      }
+
       #interest-open { cursor: pointer ;}
       #i-outbox { padding: 5px; position: relative; }
       #i-boxes { padding-top: 10px; margin: auto; width: 80%; }
@@ -381,7 +398,7 @@ Responsive queries
     .navbar img { margin-bottom: 0; } 
     .social-bar { display: none;}
     #navbarToggler { background-color: #ced4da2c; } /* Gray 4 transparent */
-    .c-aboutMe-box { width: 90%; }
+    #c-text-box { width: 90%; }
     #i-boxes { width: 100%;}
     #i-boxes #i-box { height: 250px; }
     #err_wrapper { margin-top: 100px; }
@@ -392,28 +409,28 @@ Responsive queries
   /* Extra small devices (phones, 576px and up) */
   @media only screen and (min-width: 576px) {
     .page-wrapper { max-width: 95%; }
-    .c-aboutMe-box { width: 80%; }
+    #c-text-box { width: 80%; }
     #i-boxes { width: 90%;}
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
     .page-wrapper { max-width: 95%;}
-    .c-aboutMe-box { width: 70%; }
+    #c-text-box { width: 70%; }
     #i-boxes { width: 70%;}
   } 
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
     .page-wrapper { max-width: 90%;}
-    .c-aboutMe-box { width: 60%; }
+    #c-text-box { width: 60%; }
     #i-boxes { width: 90%; }
   } 
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
     .page-wrapper { max-width: 90%;}
-    .c-aboutMe-box { width: 50%; }
+    #c-text-box { width: 60%; }
   }
 
   .modal-body .col-1 {  }
