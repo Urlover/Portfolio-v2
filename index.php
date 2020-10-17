@@ -51,7 +51,7 @@
       </div>
       <!-- My Skills/What I do --> 
       <div class="c-skill">
-        <div class="skill2" id="c-text-box">
+        <div class="skill1" id="c-text-box">
             <h1 class="uni-subHeader">I build things for the web</h1>
             <p class="c-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor expedita 
@@ -79,8 +79,8 @@
             </div>
         </div>
       </div> 
-      <div class="c-skill">
-        <div class="skill1" id="c-text-box">
+      <div class="c-skill" id="c-skill-2">
+        <div class="skill2" id="c-text-box">
             <h1 class="uni-subHeader">I make software & problem solve</h1>
             <p class="c-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nulla harum itaque deleniti 

@@ -206,12 +206,15 @@ Content Wrapper
     .c-skill { 
       padding: 150px 0; 
     }
-      .skill1 {
-        text-align: left;
-      }  
-      .skill2{
+      .skill1{
         margin: auto;
         text-align: left;
+      }
+      .skill2 {
+        text-align: left;
+      }  
+      #c-skill-2 {
+        border-bottom: 1px solid #748ffc;
       }
       .skill-framew i { 
         color: #96f2d7 !important;
