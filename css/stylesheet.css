@@ -38,7 +38,11 @@ Global Settings
       color: #868e96;
     }
 
-  body, html { margin: 0; max-width: 100%; overflow-x: hidden; }
+  body, html { 
+    margin: 0; 
+    max-width: 100%; 
+    overflow-x: hidden; 
+  }
 
   /* Button */
   button {
@@ -63,6 +67,12 @@ Global Settings
   ::selection {
     color: white;
     background: #748ffca1;
+  }
+
+  /* Universal sub-header */
+  .uni-subHeader {
+    font-size: 28px;
+    color: #748ffc;  
   }
 
 /********************************************************************************
@@ -132,11 +142,15 @@ Navigation bar Wrapper
 /********************************************************************************
 Content Wrapper
 *********************************************************************************/
-  #content { text-align: center; }
+  #content { 
+    text-align: center; 
+    padding: 0 50px;
+   }
 
 /* Introduction box */    
-    .c-intro { padding-top: 85px; padding: 200px 0; }
-
+    .c-intro { 
+      padding: 200px 0 150px 0; 
+    }
       .c-intro h1 { 
           font-size: 60px; 
           font-weight: 300;
@@ -176,13 +190,19 @@ Content Wrapper
           background-color: #748ffc31;
         }
 /* About me box */
-    .c-aboutMe { margin: auto; padding-bottom: 150px; }
-
-      .c-aboutMe h4 { color: #748ffc;}
+    .c-aboutMe {  
+      padding: 150px 0; 
+      text-align: left;
+      width: 100%;
+      border-top: 1px solid #748ffc;
+    }
+    .c-aboutMe p {
+      padding-top: 15px; 
+      font-size: 18px;
+    }  
 /* My interest box */
-    #c-interest { margin: auto; }
-
-      #c-interest h4 { color: #748ffc; }
+    #c-interest { 
+    }
       #interest-open { cursor: pointer ;}
       #i-outbox { padding: 5px; position: relative; }
       #i-boxes { padding-top: 10px; margin: auto; width: 80%; }
@@ -356,11 +376,12 @@ Responsive queries
 *********************************************************************************/
   /* Extra small devices (phones, 575px and down) */
   @media only screen and (max-width: 575px) {
+    .cBtns { width: 335px; }
     .page-wrapper { max-width: 95%;}
     .navbar img { margin-bottom: 0; } 
     .social-bar { display: none;}
     #navbarToggler { background-color: #ced4da2c; } /* Gray 4 transparent */
-    .c-aboutMe { width: 90%; }
+    .c-aboutMe-box { width: 90%; }
     #i-boxes { width: 100%;}
     #i-boxes #i-box { height: 250px; }
     #err_wrapper { margin-top: 100px; }
@@ -371,28 +392,28 @@ Responsive queries
   /* Extra small devices (phones, 576px and up) */
   @media only screen and (min-width: 576px) {
     .page-wrapper { max-width: 95%; }
-    .c-aboutMe { width: 80%; }
+    .c-aboutMe-box { width: 80%; }
     #i-boxes { width: 90%;}
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
     .page-wrapper { max-width: 95%;}
-    .c-aboutMe { width: 70%; }
+    .c-aboutMe-box { width: 70%; }
     #i-boxes { width: 70%;}
   } 
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
     .page-wrapper { max-width: 90%;}
-    .c-aboutMe { width: 70%; }
+    .c-aboutMe-box { width: 60%; }
     #i-boxes { width: 90%; }
   } 
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
     .page-wrapper { max-width: 90%;}
-    .c-aboutMe { width: 60%; }
+    .c-aboutMe-box { width: 50%; }
   }
 
   .modal-body .col-1 {  }

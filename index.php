@@ -40,155 +40,17 @@
         </div>
       <!-- About me -->
       <div class="c-aboutMe">
-        <h4>A little about me</h4>
-        <p>I'm currently a Computer Science student attending my third year at Algonquin College. 
-          Throughout the past years, I have been taught many things that have propelled me to write
-          efficient code in order to create or problem solve. With consistency and persistence, I always
-          continue to learn more about this beautiful world of code.
-        </p>
+        <div class="c-aboutMe-box">
+          <h4 class="uni-subHeader">A little about me</h4>
+          <p>I'm currently a Computer Science student attending my third year at Algonquin College. 
+            Throughout the past years, I have been taught many things that have propelled me to write
+            efficient code in order to create or problem solve. With consistency and persistence, I always
+            continue to learn more about this beautiful world of code.
+          </p>
+        </div>
       </div>
       <!-- My interest -->  
-      <div class="container-sm" id="c-interest">
-        <h4 >My interests</h4>
-        <!-- Boxes -->
-        <div class="row" id="i-boxes">
-          <?php
-          // Create array that will hold all my interests
-          $myInterest = array();
-
-          // Assign my interests to the new array
-          $myInterest[] = array("name" => "Computers", "description" => "", "animation" => "right");
-          $myInterest[] = array("name" => "Programming", "description" => "", "animation" => "left");
-          $myInterest[] = array("name" => "Coffee", "description" => "", "animation" => "right");
-          $myInterest[] = array("name" => "Spirituality", "description" => "", "animation" => "left");
-
-          // Loop until end of array
-          for ($x = 0; $x < count($myInterest); $x++) {
-            /*
-            * In the for loop:
-            *  > It will assign the proper animation to the div
-            *  > Assign the appropriate name & picture to display
-            *  > Assign a unique Modal ID. I.e myModal-1,myModal-2...etc 
-            */
-          ?>  
-          <div class="col-lg-6 box" id="i-outbox">
-            <div id="i-box">
-              <img src="images/pic_<?php echo $x+1; ?>.jpg" width="100%" height="100%">
-              <a id="interest-open" data-toggle="modal" data-target="#myModal<?php echo "-$x";?>"><div class="i-overlay">
-                  <div class="i-text">
-                    <?php echo $myInterest[$x]["name"]; ?>
-                  </div>
-              </div></a>
-            </div>  <!-- end of i-box -->
-        </div>      <!-- end of row -->
-        <?php } ?>  <!-- close 'For Loop' -->
-      </div>        <!-- end of my interest -->
-    </div>          <!-- end of content area -->
-
-    <!-- Modal #1 -->
-    <div class="modal fade" id="myModal-0" tabindex="-1" aria-labelledby="myModal" aria-hidden="true">
-      <div class="container-fluid">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Computers</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p>
-                My beautiful computer setup that I built from scratch and with love.
-              </p>
-              <!-- Row #1 -->
-              <div class="row">
-                <div class="col-1"><i class="fas fa-dot-circle fa-lg"></i></div>
-                <div class="col-10"><h6>Specifications</h6></div>
-              </div>  
-              <div class="row">
-                <div class="col-1 m-col-1"><!-- Empty div --></div>
-                <div class="col-10 m-col-2">
-                  <p>
-                    <b>CPU</b> - AMD Ryzen 5 2600<br><b>CPU Cooler</b> - Thermaltake AIO Water 3.0 240 ARGB<br><b>GPU</b> - ASUS GTX 1650 Super<br>
-                    <b>Motherboard</b> - Astrock B450M-HDV R4.0<br><b>RAM</b> - Corsair Vegeance LPX 16GB 3200MHz DDR4<br>
-                    <b>SSD 1 (OS)</b> - WD Black SN750 250GB NVMe M.2 2280<br><b>SSD 2</b> - Samsung 860 EVO 1TB<br>
-                    <b>Case + PSU</b> - Thermaltake H17<br><b>Fans</b> - Thermaltake Pure Plus 12 RGB 120mm (x2)<br>
-                  </p>
-                </div>
-              </div>   
-              <!-- Row #2 -->      
-              <div class="row">
-                <div class="col-1"><i class="fas fa-dot-circle fa-lg"></i></div>
-                <div class="col-10"><h6>Favorite game</h6></div>
-              </div>     
-              <div class="row">
-                <div class="col-1"><!-- Empty div --></div>
-                <div class="col-10"><p>Counter-Strike Global Offensive</p></div>
-              </div>  
-            </div>
-            <div class="modal-footer">
-              <button type="button" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    
-    <!-- Modal #2 -->
-    <div class="modal fade" id="myModal-1" tabindex="-1" aria-labelledby="myModal" aria-hidden="true">
-      <div class="container-fluid">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Programming</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p>
-                What I use & what I've learned so far.
-              </p>
-              <!-- Row #1 -->
-              <div class="row">
-                <div class="col-1"><i class="fas fa-dot-circle fa-lg"></i></div>
-                <div class="col-10"><h6>Software Programming</h6></div>
-              </div>  
-              <div class="row">
-                <div class="col-1 m-col-1"><!-- Empty div --></div>
-                <div class="col-10 m-col-2">
-                  <p>
-                    Java<br>C/C#/C++<br>Arduino
-                  </p>
-                </div>
-              </div>   
-              <!-- Row #2 -->      
-              <div class="row">
-                <div class="col-1"><i class="fas fa-dot-circle fa-lg"></i></div>
-                <div class="col-10"><h6>Web Development</h6></div>
-              </div>     
-              <div class="row">
-                <div class="col-1"><!-- Empty div --></div>
-                <div class="col-10"><p>HTML<br>CSS<br>Javascript<br>PHP<br>SQL</p></div>
-              </div>  
-              <!-- Row #3 -->      
-              <div class="row">
-                <div class="col-1"><i class="fas fa-dot-circle fa-lg"></i></div>
-                <div class="col-10"><h6>Frameworks & Libraries</h6></div>
-              </div>     
-              <div class="row">
-                <div class="col-1"><!-- Empty div --></div>
-                <div class="col-10"><p>Bootstrap<br>Java Swing<br>JavaFX</p></div>
-              </div> 
-            </div> <!-- End of modal body -->
-            <div class="modal-footer">
-              <button type="button" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+     
 
     <!-- Footer -->
     <?php include("footer.php"); ?>
