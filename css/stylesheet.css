@@ -59,7 +59,7 @@ Global Settings
    }
     button:hover {
         background-color: white;
-        color: #748ffc;                             
+        color: #748ffc;                       
     }
   ::-moz-selection { /* Code for Firefox */
     color: white;
@@ -114,7 +114,9 @@ Social Icon bar Wrapper
     .social-bar a { 
         display: block;
         padding: 5px 0;
-        color: #adb5bd;     
+        color: #adb5bd;   
+        transition:  color 0.5s;
+        -webkit-transition: color 0.5s;
     }
       .social-bar a:hover {
         color: #868e96;         
