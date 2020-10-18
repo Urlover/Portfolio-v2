@@ -166,7 +166,7 @@ Content Wrapper
 *********************************************************************************/
   #content { 
     text-align: center; 
-    padding: 0 50px;
+    padding: 0 75px;
    }
   .c-welcome {
     padding: 200px 0;
@@ -459,7 +459,7 @@ Animations from animista.net
 Responsive queries
 *********************************************************************************/
   /* Extra small devices (phones, 575px and down) */
-  @media only screen and (max-width: 575px) {
+  @media only screen and (max-width: 499px) {
     .page-wrapper { max-width: 95%;}
     #content { padding: 0 10px; }
     .navbar img { margin-bottom: 0; } 
@@ -483,16 +483,38 @@ Responsive queries
     .contact-form-box { width: 270px; }
   }
 
-  /* Extra small devices (phones, 576px and up) */
-  @media only screen and (min-width: 576px) {
+  /* Extra small devices (phones, 500px and up) */
+  @media only screen and (min-width: 500px) and (max-width: 575px) {
     .page-wrapper { max-width: 95%; }
+    #content { padding: 0 10px; }
+    #navbarToggler { background-color: #ced4da2c; } /* Gray 4 transparent */
+    .social-bar { display: none;}
+    .c-welcome { padding: 100px 0; }
+    #cHeader1-font1 { font-size: 50px; }
+    #cHeader1-font2 { font-size: 50px; }
+    #cHeader2-font1 { font-size: 30px; }
+    #cHeader2-font2 { font-size: 30px; }
+    .cBtns { width: 280px; }
+    .c-aboutMe { padding: 50px 0; }
+    .c-skill { padding: 50px 0; }
     #c-text-box { width: 80%; }
     .contact-form-box { width: 450px; }
   }
   
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
+  /* Fix buggy contact form  */
+  @media only screen and (min-width: 576px) and (max-width: 660px) {
+    .contact-form-box { width: 450px !important; }
+  }
+  
+  /* Medium devices (landscape tablets, 576px and up) */
+  @media only screen and (min-width: 576px) and (max-width: 991px) {
     .page-wrapper { max-width: 95%;}
+    #cHeader1-font1 { font-size: 50px; }
+    #cHeader1-font2 { font-size: 50px; }
+    #cHeader2-font1 { font-size: 30px; }
+    #cHeader2-font2 { font-size: 30px; }
+    .c-aboutMe { padding: 75px 0; }
+    .c-skill { padding: 75px 0; }
     #c-text-box { width: 70%; }
     .contact-form-box { width: 550px; }
   } 
@@ -501,12 +523,10 @@ Responsive queries
   @media only screen and (min-width: 992px) {
     .page-wrapper { max-width: 90%;}
     #c-text-box { width: 60%; }
-    .contact-form-box { width: 650px; }
+    .contact-form-box { width: 750px; }
   } 
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
-    .page-wrapper { max-width: 90%;}
-    #c-text-box { width: 60%; }
     .contact-form-box { width: 850px; }
   }
