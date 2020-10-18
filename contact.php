@@ -28,9 +28,14 @@
     <!-- Social icon bar (Static left side) -->
     <?php include("social.php"); ?>
 
-      <div class="contact-content">
-            
-      </div>
+    <div class="container-sm" id="contact-content">
+        <div class="c-intro">
+            <h1 class="uni-mainHeader">Contact me</h1>
+        </div>
+        <div class="contact-form-box">
+                
+        </div>
+    </div>
         
     <!-- Footer -->
     <?php //include("footer.php"); ?>

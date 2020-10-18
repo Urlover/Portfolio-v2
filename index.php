@@ -32,8 +32,8 @@
     <div class="container-sm" id="content">
       <!-- Introduction -->
       <div class="c-intro">
-          <h1 class="uni-mainHeader">Hi, I'm <span id="cHeader1-font1">Jonah.</span></h1>
-          <h2><span id="cHeader2-font1">I love to create </span>websites & applications.</h2>
+          <h1 id="cHeader1-font1">Hi, I'm <span id="cHeader1-font2">Jonah.</span></h1>
+          <h2 id="cHeader2-font1"><span id="cHeader2-font2">I love to create </span>websites & applications.</h2>
           <div class="cBtns">
             <a href=""><button type="button" class="cBtn">Start a Project</button></a>
             <a href=""><button type="button" class="cBtn">My Current Plans</button></a>  
