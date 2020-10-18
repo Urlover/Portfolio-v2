@@ -47,17 +47,18 @@ Global Settings
   /* Button */
   button {
     background-color: #748ffca1;         
-    border: 2px solid #748ffca1;         
+    border: 2px solid #748ffc;         
     color: white;
     border-radius: 3px;
     padding: 5px 10px;
     text-decoration: none;
     outline: none !important;
+    transition: background-color 0.5s, color 0.5s;
+    -webkit-transition: background-color 0.5s, color 0.5s;
    }
     button:hover {
         background-color: white;
-        color: #748ffc;                     
-        border: 2px solid #748ffca1;          
+        color: #748ffc;                             
     }
   ::-moz-selection { /* Code for Firefox */
     color: white;
@@ -138,20 +139,6 @@ Navigation bar Wrapper
     /* Style for link that represents page */
     #navbar-curr { 
         font-weight: bold; 
-    }
-  /* Resume button */
-  #navbar-resume-btn {
-    background-color: #748ffc;         
-    border: 2px solid #748ffc;         
-    color: white;
-    border-radius: 3px;
-    padding: 5px 10px;
-    text-decoration: none;
-   }
-    #navbar-resume-btn:hover {
-        background-color: white;
-        color: #748ffc;                     
-        border: 2px solid #748ffc;          
     }
   /* Nav bar when collapse only */
   #navbarToggler { 
@@ -346,26 +333,6 @@ Projects Page
   #p-header-2 {
     color: #9775fa;
   }
-  /* -- BUTTON COLOURS */
-  #p-overlay-2-btn-1 button {
-    background-color: #748ffc91;
-  }
-    #p-overlay-2-btn-1 button:hover {
-      background-color: white;
-      border: 2px solid #748ffc;
-      color: #748ffc;
-      cursor: not-allowed;
-    }
-  #p-overlay-2-btn-2 button {
-    background-color: #9675fa91;
-    border: 1px solid #9675fa91; 
-  }
-    #p-overlay-2-btn-2 button:hover {
-      background-color: white;
-      border: 2px solid #9775fa; 
-      color: #9775fa;
-      cursor: not-allowed;
-    }
 
 /********************************************************************************
 Contact Page
@@ -500,7 +467,7 @@ Responsive queries
     #c-text-box { width: 80%; }
     .contact-form-box { width: 450px; }
   }
-  
+
   /* Fix buggy contact form  */
   @media only screen and (min-width: 576px) and (max-width: 660px) {
     .contact-form-box { width: 450px !important; }

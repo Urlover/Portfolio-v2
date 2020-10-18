@@ -62,7 +62,7 @@
                   </div>
                 </div>
                 <!-- Overlay 2 (Shows on hover) -->
-                <div class="p-overlay-2" id="p-overlay-2-btn-<?php echo $projects[$x]["css_id"]; ?>">
+                <div class="p-overlay-2">
                   <div class="p-text">
                     <a> <button type="button">View info</button></a>
                     <!-- Disabled link -->
