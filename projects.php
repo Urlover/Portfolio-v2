@@ -30,7 +30,7 @@
 
   <!-- Projects content -->
     <div class="container-sm" id="projects-content">
-        <div class="c-intro-2 "><h1 class="uni-mainHeader">My Latest Projects</h1></div>
+        <div class="c-intro-2 "><h1 class="c-intro-2-header">My Latest Projects</h1></div>
         <!-- Display of projects -->
         <div class="row">
         <?php

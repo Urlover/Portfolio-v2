@@ -283,9 +283,10 @@ Projects Page
   padding-top: 100px;
   padding-bottom: 200px;
 }
-   .c-intro-2 h1 { 
+  .c-intro-2-header {
     text-align: center; 
     font-weight: 300;
+    font-size: 45px;
   }
   .project-box { 
     margin: auto;
@@ -412,6 +413,7 @@ Responsive queries
     .c-intro { padding: 100px 0; }
     .c-intro h2 { font-size: 25px; }
     .c-intro-2 { padding: 100px 0; }
+    .c-intro-2-header { font-size: 35px;}
     #cHeader2-font1 { font-size:25px; }
     .cBtns { width: 280px; }
     .c-aboutMe { padding: 50px 0; }
