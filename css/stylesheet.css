@@ -170,9 +170,6 @@ Content Wrapper
    }
 
 /* Introduction box */    
-    .c-intro { 
-      padding: 100px 0; 
-    }
     #cHeader1-font1 {
       font-size: 60px;
       font-weight: 300;
@@ -260,26 +257,6 @@ Footer
     .footer i:hover { 
       color: #868e96; 
       cursor: pointer;
-    }
-    
-/********************************************************************************
-404 Page
-*********************************************************************************/
-  #err_wrapper {
-    margin-top: 150px;
-    text-align: center;
-  }
-    #err_wrapper h1 { 
-      font-size: 200px;
-      font-weight: 700;
-    }
-    #err_wrapper h2 { 
-      font-weight: 400;
-      font-size: 25px;
-    }
-    #err_wrapper button {
-      padding: 15px 35px;
-      border-radius: 3px;
     }
 
 /********************************************************************************
@@ -394,6 +371,26 @@ Contact Page
 .contact-form-box {
 
 }
+
+/********************************************************************************
+404 Page
+*********************************************************************************/
+#err_wrapper {
+  margin-top: 150px;
+  text-align: center;
+}
+  #err_wrapper h1 { 
+    font-size: 200px;
+    font-weight: 700;
+  }
+  #err_wrapper h2 { 
+    font-weight: 400;
+    font-size: 25px;
+  }
+  #err_wrapper button {
+    padding: 15px 35px;
+    border-radius: 3px;
+  }
 
 /********************************************************************************
 Animations from animista.net
