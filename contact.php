@@ -34,19 +34,23 @@
         </div>
         <div class="contact-form-box">
             <form>
-                <label for="fName">First Name</label>
-                <input type="text" id="fName" name="firstName" placeholder="Enter your first name..">
-
-                <label for="lName">Last Name</label>
-                <input type="text" id="lName" name="lastName" placeholder="Enter your last name..">
-
-                <label for="subject">Subject</label>
-                <input type="text" id="subject" name="subject" placeholder="Enter the subject..">
-
-                <label for="message">Message</label>
-                <textarea id="message" name="message" placeholder="Enter your message.."></textarea>
-
-                <input type="submit" value="submit">
+                <div class="row">
+                    <div class="col-md-6 form-input">
+                        <input type="text" id="fName" name="firstName" placeholder="First Name">
+                    </div>
+                    <div class="col-md-6 form-input">
+                        <input type="text" id="lName" name="lastName" placeholder="Last Name">
+                    </div>
+                    <div class="col-sm-12 form-input">
+                        <input type="text" id="subject" name="subject" placeholder="Subject">
+                    </div>
+                    <div class="col-sm-12 form-input">
+                        <textarea id="message" name="message" placeholder="Message"></textarea>
+                    </div>
+                    <div class="col-sm-12 form-input">
+                        <input type="submit" value="submit">
+                    </div>
+                </div>
             </form>
         </div>
     </div>

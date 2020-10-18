@@ -368,9 +368,20 @@ Projects Page
 /********************************************************************************
 Contact Page
 *********************************************************************************/
-.contact-form-box {
+#contact-content {
 
 }
+.contact-form-box {
+  padding: 10px;
+  margin: 0 auto;
+}
+  .contact-form-box input[type=text], textarea {
+    width: 100%;
+    padding: 10px;
+  }
+  .contact-form-box .form-input {
+    padding: 10px;
+  }
 
 /********************************************************************************
 404 Page
@@ -425,28 +436,33 @@ Responsive queries
     #err_wrapper { margin-top: 100px; }
     #err_wrapper h1 { font-size: 125px; }
     #err_wrapper button { padding: 10px 25px; }
+    .contact-form-box { width: 270px; }
   }
 
   /* Extra small devices (phones, 576px and up) */
   @media only screen and (min-width: 576px) {
     .page-wrapper { max-width: 95%; }
     #c-text-box { width: 80%; }
+    .contact-form-box { width: 450px; }
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
     .page-wrapper { max-width: 95%;}
     #c-text-box { width: 70%; }
+    .contact-form-box { width: 550px; }
   } 
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
     .page-wrapper { max-width: 90%;}
     #c-text-box { width: 60%; }
+    .contact-form-box { width: 650px; }
   } 
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
     .page-wrapper { max-width: 90%;}
     #c-text-box { width: 60%; }
+    .contact-form-box { width: 850px; }
   }
