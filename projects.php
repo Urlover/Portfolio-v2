@@ -38,17 +38,19 @@
 
           // Give array values
           $projects[] = array("name" => "Overhaul.design", "description" => "Develop & maintan websites for our web agency business.", 
-                              "link" => "https://overhaul.design/", "logo" => "fab fa-wordpress-simple fa-4x", "animation" => "left");
-
+                              "link" => "https://overhaul.design/", "logo" => "far fa-question-circle fa-4x", "css_id" => "1");
+          $projects[] = array("name" => "Study Buddy", "description" => "A flash card type application for studying.", 
+                              "link" => "", "logo" => "far fa-question-circle fa-4x", "css_id" => "2");
+                              
           // Loop until end of array
           for ($x = 0; $x < count($projects); $x++) {          
         ?>
         <!-- Projects -->
           <div class="col-sm-9 project-box" id="p-padding">
-            <h2><?php echo $projects[$x]["name"]; ?></h2>
+            <h2 id="p-header-<?php echo $projects[$x]["css_id"]; ?>"><?php echo $projects[$x]["name"]; ?></h2>
             <p><?php echo $projects[$x]["description"]; ?></p>
             <!-- Showcase -->
-            <div class="col-lg-12" id="p-outbox">
+            <div class="col-lg-12 p-outbox">
               <div id="p-box">
                 <!-- Overlay 1 (Shows by default) -->
                 <div class="p-overlay">
@@ -57,9 +59,9 @@
                   </div>
                 </div>
                 <!-- Overlay 2 (Shows on hover) -->
-                <div class="p-overlay-2">
+                <div class="p-overlay-2" id="p-overlay-2-btn-<?php echo $projects[$x]["css_id"]; ?>">
                   <div class="p-text">
-                    <a href="<?php echo $projects[$x]["link"]; ?>" target="_blank"> <button type="button">View</button></a>
+                    <a href="<?php echo $projects[$x]["link"]; ?>" target="_blank"> <button type="button">View info</button></a>
                   </div>
                 </div>
               </div>

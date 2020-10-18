@@ -84,7 +84,9 @@ Global Settings
 /********************************************************************************
 Full Page Wrapper
 *********************************************************************************/
-  .page-wrapper { margin: auto; }
+  .page-wrapper { 
+    margin: auto;
+  }
 
 /********************************************************************************
 Social Icon bar Wrapper
@@ -105,12 +107,12 @@ Social Icon bar Wrapper
       .social-bar a:hover {
         color: #868e96;         
       }
-   /* Vertical lines */
-  .vl { 
-      height: 150px; 
-      border-left: 2px solid #ced4da;   
-      margin-left: 15px;
-      
+    /* Vertical lines */
+    .vl { 
+        height: 150px; 
+        border-left: 2px solid #ced4da;   
+        margin-left: 15px;
+        
     }
 
 /********************************************************************************
@@ -142,8 +144,12 @@ Navigation bar Wrapper
         border: 2px solid #748ffc;          
     }
   /* Nav bar when collapse only */
-  #navbarToggler { padding: 15px; }
-  #navbarToggler li { padding-bottom: 15px; }
+  #navbarToggler { 
+    padding: 15px; 
+  }
+    #navbarToggler li { 
+      padding-bottom: 15px; 
+    }
 
 /********************************************************************************
 Content Wrapper
@@ -204,14 +210,14 @@ Content Wrapper
         }
 /* About me box */
     .c-aboutMe {  
-      padding: 150px 0; 
+      padding: 115px 0; 
       text-align: left;
       width: 100%;
       border-top: 1px solid #748ffc;
     }
 /* My Skills */
     .c-skill { 
-      padding: 150px 0; 
+      padding: 115px 0; 
     }
       .skill1{
         margin: auto;
@@ -278,26 +284,28 @@ Projects Page
     font-weight: 300;
   }
   .project-box { 
-    margin: auto; 
+    margin: auto;
   }
-  .project-box h2 { 
-    margin: 0; 
-    font-weight: 400;
-    font-size: 20px;
-    color: #748ffc;
-  }
-  .project-box p { 
-    padding: 0; 
-    margin: 0; 
-  }
-  #p-outbox { 
+    .project-box h2 { 
+      margin: 0; 
+      font-weight: 400;
+      font-size: 20px;
+    }
+    .project-box p { 
+      padding: 0; 
+      margin: 0; 
+    }
+  .p-outbox { 
     padding: 5px; 
     position: relative; 
     height: 350px;
-    background-color: #4c6ef5ce;
-    background-color: rgba(76, 110, 245, 0.81); /* For IE & Edge */
+    background-color: #e9ecef;
   }
-  #p-boxes { padding-top: 10px; margin: auto; width: 80%; }
+  #p-boxes { 
+    padding-top: 10px;
+     margin: auto; 
+     width: 80%; 
+    }
   #p-boxes #p-box {
     height: 350px;
     padding: 0px;
@@ -326,10 +334,13 @@ Projects Page
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #4c6ef5;
   }
-  #p-box:hover .p-overlay { opacity: 0; }
-  #p-box:hover .p-overlay-2 { opacity: 1; }
+    #p-box:hover .p-overlay { 
+      opacity: 0; 
+    }
+    #p-box:hover .p-overlay-2 { 
+      opacity: 1; 
+    }
   .p-text { 
     color: white;
     font-size: 20px;
@@ -341,7 +352,36 @@ Projects Page
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  #p-padding { padding-bottom: 85px; }
+  #p-padding { 
+    padding-bottom: 100px; 
+  }
+  /*  Custom colours for 'Latest Projects' */
+  /* -- HEADERS -- */
+  #p-header-1 {
+    color: #748ffc;
+  }
+  #p-header-2 {
+    color: #9775fa;
+  }
+  /* -- BUTTON COLOURS */
+  #p-overlay-2-btn-1 button {
+    background-color: #748ffc;
+  }
+    #p-overlay-2-btn-1 button:hover {
+      background-color: white;
+      border: 2px solid #748ffc;
+      color: #748ffc;
+    }
+  #p-overlay-2-btn-2 button {
+    background-color: #9675fa91;
+    border: 1px solid #9675fa91; 
+  }
+    #p-overlay-2-btn-2 button:hover {
+      background-color: white;
+      border: 2px solid #9775fa; 
+      color: #9775fa;
+    }
+
 
 /********************************************************************************
 Animations from animista.net

@@ -39,6 +39,7 @@
             <a href=""><button type="button" class="cBtn">My Current Plans</button></a>  
           </div>
         </div>
+
       <!-- About me -->
       <div class="c-aboutMe">
         <div id="c-text-box">
@@ -50,6 +51,7 @@
           </p>
         </div>
       </div>
+      
       <!-- My Skills/What I do --> 
       <div class="c-skill">
         <div class="skill1" id="c-text-box">
