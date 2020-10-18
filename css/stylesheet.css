@@ -88,7 +88,7 @@ Global Settings
   /* Universal text area */
   .c-text {
     padding-top: 15px; 
-    font-size: 20px;
+    font-size: 16px;
   }  
 
 /********************************************************************************
@@ -168,7 +168,9 @@ Content Wrapper
     text-align: center; 
     padding: 0 50px;
    }
-
+  .c-welcome {
+    padding: 200px 0;
+  }
 /* Introduction box */    
     #cHeader1-font1 {
       font-size: 60px;
@@ -465,6 +467,7 @@ Responsive queries
     #navbarToggler { background-color: #ced4da2c; } /* Gray 4 transparent */
     .uni-mainHeader { font-size: 35px;}
     .uni-subHeader { font-size: 22px; }
+    .c-welcome { padding: 100px 0; }
     #cHeader1-font1 { font-size: 35px; }
     #cHeader1-font2 { font-size: 35px; }
     #cHeader2-font1 { font-size: 25px; }
