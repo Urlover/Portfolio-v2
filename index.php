@@ -18,6 +18,7 @@
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <!-- End of boostrap -->
     <script src="https://kit.fontawesome.com/b510426974.js" crossorigin="anonymous"></script>
+    <script src="js/myScript.js"></script>
     <title>Jonah Louis</title>
 </head>
 <body>

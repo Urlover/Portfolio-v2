@@ -238,8 +238,13 @@ Footer
       padding: 50px 10px 15px 10px;
       text-align: center;
   }
-    .footer i { color: #748ffc; }
-    .footer i:hover { color: #868e96; }
+    .footer i { 
+      color: #748ffc; 
+    }
+    .footer i:hover { 
+      color: #868e96; 
+      cursor: pointer;
+    }
     
 /********************************************************************************
 404 Page
