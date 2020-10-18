@@ -374,6 +374,7 @@ Projects Page
       background-color: white;
       border: 2px solid #748ffc;
       color: #748ffc;
+      cursor: not-allowed;
     }
   #p-overlay-2-btn-2 button {
     background-color: #9675fa91;
@@ -383,6 +384,7 @@ Projects Page
       background-color: white;
       border: 2px solid #9775fa; 
       color: #9775fa;
+      cursor: not-allowed;
     }
 
 

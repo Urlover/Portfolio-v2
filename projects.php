@@ -39,7 +39,7 @@
 
           // Give array values
           $projects[] = array("name" => "Overhaul.design", "description" => "Develop & maintan websites for our web agency business.", 
-                              "link" => "https://overhaul.design/", "logo" => "far fa-question-circle fa-4x", "css_id" => "1");
+                              "link" => "", "logo" => "far fa-question-circle fa-4x", "css_id" => "1");
           $projects[] = array("name" => "Study Buddy", "description" => "A flash card type application for studying.", 
                               "link" => "", "logo" => "far fa-question-circle fa-4x", "css_id" => "2");
                               
@@ -62,7 +62,9 @@
                 <!-- Overlay 2 (Shows on hover) -->
                 <div class="p-overlay-2" id="p-overlay-2-btn-<?php echo $projects[$x]["css_id"]; ?>">
                   <div class="p-text">
-                    <a href="<?php echo $projects[$x]["link"]; ?>" target="_blank"> <button type="button">View info</button></a>
+                    <a> <button type="button">View info</button></a>
+                    <!-- Disabled link -->
+                    <!-- href="<?php // echo $projects[$x]["link"]; ?>" target="_blank" -->
                   </div>
                 </div>
               </div>
