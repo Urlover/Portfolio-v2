@@ -68,12 +68,12 @@ Global Settings
     color: white;
     background: #748ffca1;
   }
-
   /* Universal main-header */
   .uni-mainHeader {
-    font-size: 60px;
+    text-align: center; 
+    font-weight: 300;
+    font-size: 45px;
   }
-
   /* Universal sub-header */
   .uni-subHeader {
     font-size: 28px;
@@ -169,10 +169,12 @@ Content Wrapper
       padding: 100px 0 150px 0; 
     }
       .c-intro h1 { 
+          font-size: 60px;
           font-weight: 300;
         }
       #cHeader1-font1 { 
         color:#748ffc;  
+        font-size: 60px;
         font-weight: 300;
       }
       .c-intro h2 { 
@@ -283,11 +285,6 @@ Projects Page
   padding-top: 100px;
   padding-bottom: 200px;
 }
-  .c-intro-2-header {
-    text-align: center; 
-    font-weight: 300;
-    font-size: 45px;
-  }
   .project-box { 
     margin: auto;
   }
@@ -408,12 +405,13 @@ Responsive queries
     .navbar img { margin-bottom: 0; } 
     .social-bar { display: none;}
     #navbarToggler { background-color: #ced4da2c; } /* Gray 4 transparent */
-    .uni-mainHeader { font-size: 35px; }
+    .uni-mainHeader { font-size: 35px;}
     .uni-subHeader { font-size: 22px; }
     .c-intro { padding: 100px 0; }
+    .c-intro h1 { font-size: 35px; }
+    #cHeader1-font1 { font-size: 35px; }
     .c-intro h2 { font-size: 25px; }
     .c-intro-2 { padding: 100px 0; }
-    .c-intro-2-header { font-size: 35px;}
     #cHeader2-font1 { font-size:25px; }
     .cBtns { width: 280px; }
     .c-aboutMe { padding: 50px 0; }

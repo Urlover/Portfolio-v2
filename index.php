@@ -32,7 +32,7 @@
     <div class="container-sm" id="content">
       <!-- Introduction -->
       <div class="c-intro">
-          <h1 class="uni-mainHeader">Hi, I'm <span class="uni-mainHeader" id="cHeader1-font1">Jonah.</span></h1>
+          <h1 class="uni-mainHeader">Hi, I'm <span id="cHeader1-font1">Jonah.</span></h1>
           <h2><span id="cHeader2-font1">I love to create </span>websites & applications.</h2>
           <div class="cBtns">
             <a href=""><button type="button" class="cBtn">Start a Project</button></a>
