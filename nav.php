@@ -14,12 +14,19 @@
         if (stripos($_SERVER['SCRIPT_NAME'], 'index.php')) {
           echo '<li class="nav-item active pr-4"><a id="navbar-curr" href="index.php">About Me</a></li>';
           echo '<li class="nav-item pr-4"><a href="projects.php">Projects</a></li> ';
+          echo '<li class="nav-item pr-4"><a href="contact.php">Contact</a></li> ';
         } else if (stripos($_SERVER['SCRIPT_NAME'], 'projects.php')) {
           echo '<li class="nav-item active pr-4"><a href="index.php">About Me</a></li>';
           echo '<li class="nav-item pr-4"><a id="navbar-curr" href="projects.php">Projects</a></li> ';
+          echo '<li class="nav-item pr-4"><a href="contact.php">Contact</a></li> ';
+        } else if (stripos($_SERVER['SCRIPT_NAME'], 'contact.php')) {
+          echo '<li class="nav-item active pr-4"><a href="index.php">About Me</a></li>';
+          echo '<li class="nav-item pr-4"><a href="projects.php">Projects</a></li> ';
+          echo '<li class="nav-item pr-4"><a id="navbar-curr" href="contact.php">Contact</a></li> ';
         } else {
           echo '<li class="nav-item active pr-4"><a href="index.php">About Me</a></li>';
           echo '<li class="nav-item pr-4"><a href="projects.php">Projects</a></li> ';
+          echo '<li class="nav-item pr-4"><a href="contact.php">Contact</a></li> ';
         }
         ?>
       </ul>
