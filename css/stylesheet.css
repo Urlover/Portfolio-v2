@@ -368,19 +368,60 @@ Projects Page
 /********************************************************************************
 Contact Page
 *********************************************************************************/
-#contact-content {
-
-}
 .contact-form-box {
   padding: 10px;
   margin: 0 auto;
 }
+  .form-input {
+    padding: 10px;
+  }
   .contact-form-box input[type=text], textarea {
     width: 100%;
     padding: 10px;
+    outline: none;
+    font-size: 16px;  
+    color:#868e96;
+    border: 2px solid #dee2e6;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; 
   }
-  .contact-form-box .form-input {
-    padding: 10px;
+  .contact-form-box textarea {
+    height: 200px;
+    font-size: 16px;
+  }
+  .contact-form-box input[type=submit] {
+    width: 100%;
+    padding: 10px 0; 
+    font-size: 16px;
+    background-color: #748ffc;
+    border: 2px solid #748ffc;
+    color: white;
+    transition: background-color 0.5s, color 0.5s;
+    -webkit-transition: background-color 0.5s, color 0.5s;
+  }
+    .contact-form-box input[type=submit]:hover {
+      background-color: white;
+      border: 2px solid #748ffc;
+      color: #748ffc;
+    } 
+  .contact-form-box input[type=text]:focus, textarea:focus  {
+    border: 2px solid #748ffc;
+  }
+  .contact-form-box input[type=text]:hover, textarea:hover  {
+    border: 2px solid #748ffc;
+  }
+  /* Font color */
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:#868e96;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:#868e96;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color:#868e96;
   }
 
 /********************************************************************************

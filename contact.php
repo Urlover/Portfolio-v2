@@ -30,7 +30,7 @@
 
     <div class="container-sm" id="contact-content">
         <div class="c-intro">
-            <h1 class="uni-mainHeader">Contact me</h1>
+            <h1 class="uni-mainHeader">Contact Me</h1>
         </div>
         <div class="contact-form-box">
             <form>
@@ -48,7 +48,7 @@
                         <textarea id="message" name="message" placeholder="Message"></textarea>
                     </div>
                     <div class="col-sm-12 form-input">
-                        <input type="submit" value="submit">
+                        <input type="submit" value="Submit">
                     </div>
                 </div>
             </form>
