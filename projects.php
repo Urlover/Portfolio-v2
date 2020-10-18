@@ -18,6 +18,7 @@
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <!-- End of boostrap -->
     <script src="https://kit.fontawesome.com/b510426974.js" crossorigin="anonymous"></script>
+    <script src="js/myScript.js"></script>
     <title>Jonah Louis | Projects</title>
 </head>
 <body>
@@ -29,7 +30,7 @@
 
   <!-- Projects content -->
     <div class="container-sm" id="projects-content">
-        <div class="c-intro-2 "><h1>My Latest Projects</h1></div>
+        <div class="c-intro-2 "><h1 class="uni-mainHeader">My Latest Projects</h1></div>
         <!-- Display of projects -->
         <div class="row">
         <?php
