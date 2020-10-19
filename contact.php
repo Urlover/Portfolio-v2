@@ -63,7 +63,7 @@
          if ( !empty($_POST) ) {
             /* Varible initialization & declaration */
             // My email
-            $myEmail = "";
+            $mailTo = "jonah_louis@outlook.com";
 
             // User information
             $firstName = $_POST["firstName"];
@@ -74,18 +74,37 @@
 
             // Formatted information
             $fSubject = $subject . ": jonahlouis.ca form submission";   // subject for my message
-            $fSubject2 = "Form submitted from jonahlouis.ca";           // subject for sender
-            $fMessage = "First Name: " . $firstName . "\nLast Name: " . $lastName . "\nMessage:\n" . $message;    // message to me
-            $fMessage2 = "Hi " . $firstName .",\n\nThis is a confirmation email for your form submission on jonahlouis.ca. The following message was sent:\n\n"
-            ."First Name:" . $firstName ."\nLast Name:" . $lastName ."\nMessage:\n" . $message;    // message to sender (copy)
-            $headers = "From: " .$email;
-            $headers2 = "From: " .$myEmail;
+            $fMessage = '<html><body style="text-align:center;">';
+            $fMessage .= '<h1 style="font-weight:100;">Form submission from jonahlouis.ca</h1>';
+            $fMessage .= '<table style="border: 4px solid #748ffc;table-layout:fixed;width: 600px;" cellpadding="10">';
+            $fMessage .=
+                '<tr>
+                    <td><b>From</b></td>
+                    <td>'.$email.'</td>
+                </tr>
+
+                <tr>
+                <td><b>First name</b></td>
+                <td>'.$firstName.'</td>
+                </tr>
+
+                <tr>
+                <td><b>Last name</b></td>
+                <td>'.$lastName.'</td>
+                </tr>
+
+                <tr>
+                <td><b>Message</b></td>
+                <td>'.$message.'</td>
+                </tr>
+            </table>';
+            $fMessage .= "</body></html>";
+            
+            $headers = "MIME-Version: 1.0" . "\r\n"; 
+            $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n"; 
 
             // Send emails
-            mail($myEmail, $fSubject, $fMessage, $headers);
-            mail($email, $fSubject2, $fMessage2, $headers2);
-
-            echo "Success!";
+            mail($mailTo, $fSubject, $fMessage, $headers);
         }
     ?>
         
