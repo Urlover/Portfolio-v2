@@ -18,7 +18,7 @@
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <!-- End of boostrap -->
     <script src="https://kit.fontawesome.com/b510426974.js" crossorigin="anonymous"></script>
-    <title>Jonah Louis | 404</title>
+    <title>Jonah Louis | Blog</title>
 </head>
 <body>
     <div class="page-wrapper">
@@ -26,11 +26,14 @@
     <?php include("nav.php"); ?>
     <!-- Social icon bar (Static left side) -->
     <?php include("social.php"); ?>
-    
-        <div class="container-sm" id="err_wrapper">
-            <h1>404</h1>
-            <h2>Oooops! The page you're looking for doesn't exists.</h2>
-            <a href="index.php"><button type="button">Return</button></a>
+
+    <!-- Main header -->
+        <div class="c-intro">
+            <h1 class="uni-mainHeader">My Blog</h1>
+        </div>
+    <!-- Blog content -->
+        <div class="container-sm" id="blog-content">
+            <h2>Adding content soon! Stay tuned!</h2>
         </div>
     </div>
 </body>
