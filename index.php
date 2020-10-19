@@ -45,9 +45,10 @@
         <div id="c-text-box">
           <h4 class="uni-subHeader">A little introduction</h4>
           <!-- TODO: Talk about what I want to do and where im heading -->
-          <p class="c-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Corporis nesciunt animi expedita facilis alias quis assumenda nobis in porro. 
-            Perspiciatis optio vitae aliquid provident.
+          <p class="c-text">
+            I'm currently finishing my last year as a Computer Science Student at Algonquin College.
+            Focusing on learning more about Web development and Software development using modern
+            & popular technologies with the intention of creating beautiful things.
           </p>
         </div>
       </div>
