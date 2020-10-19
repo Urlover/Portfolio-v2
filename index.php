@@ -35,8 +35,8 @@
           <h1 id="cHeader1-font1">Hi, I'm <span id="cHeader1-font2">Jonah.</span></h1>
           <h2 id="cHeader2-font1"><span id="cHeader2-font2">I love to create </span>websites & applications.</h2>
           <div class="cBtns">
-            <a href=""><button type="button" class="cBtn">Start a Project</button></a>
-            <a href=""><button type="button" class="cBtn">My Current Plans</button></a>  
+            <a href="contact.php"><button type="button" class="cBtn">Start a Project</button></a>
+            <a href="blog.php"><button type="button" class="cBtn">My Current Plans</button></a>  
           </div>
         </div>
 
@@ -46,7 +46,7 @@
           <h4 class="uni-subHeader">A little introduction</h4>
           <!-- TODO: Talk about what I want to do and where im heading -->
           <p class="c-text">
-            I'm currently finishing my last year as a Computer Science Student at Algonquin College.
+            I'm currently completing my last year as a Computer Science Student at Algonquin College.
             Focusing on learning more about Web development and Software development using modern
             & popular technologies with the intention of creating beautiful things.
           </p>
@@ -58,8 +58,9 @@
         <div class="skill1" id="c-text-box">
             <h1 class="uni-subHeader">I build things for the web</h1>
             <p class="c-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor expedita 
-              animi magnam quibusdam suscipit, quam voluptatibus deleniti, dolore, repellendus natus vel sed voluptatem facilis vitae!
+              The abundance of the web is what strives me discover more about it. While keeping the 
+              objective of creating valuable pixel perfect websites & web applications, I aim to expand my web fundamentals
+              knowledge towards every part of the web.
               <br /><br />
               Web technologies I work with:
             </p>

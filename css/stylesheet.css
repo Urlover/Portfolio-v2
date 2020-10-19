@@ -357,6 +357,9 @@ Blog Page
 /********************************************************************************
 Contact Page
 *********************************************************************************/
+#contact-content {
+  padding-bottom: 100px;
+}
 .contact-form-box {
   padding: 10px;
   margin: 0 auto;
@@ -445,6 +448,10 @@ Animations from animista.net
 /********************************************************************************
 Responsive queries
 *********************************************************************************/
+  /* For iPhone SE size phones */
+  @media only screen and (max-width: 321px) {
+    .contact-form-box { width: 270px !important; }
+  }
   /* Extra small devices (phones, 575px and down) */
   @media only screen and (max-width: 499px) {
     .page-wrapper { max-width: 95%;}
@@ -467,7 +474,7 @@ Responsive queries
     #err_wrapper { margin-top: 100px; }
     #err_wrapper h1 { font-size: 125px; }
     #err_wrapper button { padding: 10px 25px; }
-    .contact-form-box { width: 270px; }
+    .contact-form-box { width: 325px; }
   }
 
   /* Extra small devices (phones, 500px and up) */

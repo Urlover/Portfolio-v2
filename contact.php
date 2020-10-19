@@ -90,7 +90,7 @@
     ?>
         
     <!-- Footer -->
-    <?php //include("footer.php"); ?>
+    <?php include("footer.php"); ?>
     </div> <!-- End of page-wrapper -->
 
 </body>
