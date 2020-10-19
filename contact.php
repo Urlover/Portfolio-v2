@@ -63,7 +63,7 @@
          if ( !empty($_POST) ) {
             /* Varible initialization & declaration */
             // My email
-            $myEmail = "jonah_louis@outlook.com";
+            $myEmail = "";
 
             // User information
             $firstName = $_POST["firstName"];
@@ -75,13 +75,15 @@
             // Formatted information
             $fSubject = $subject . ": jonahlouis.ca form submission";   // subject for my message
             $fSubject2 = "Form submitted from jonahlouis.ca";           // subject for sender
-            $fMessage = "First Name:" . $firstName . "\nLast Name:" . $lastName . "\nMessage:\n" . $message;    // message to me
-            $fMessage2 = "Hi" . $firstName .",\nThis is a confirmation email for your form submission on jonahlouis.ca.The following message was sent:\n"
+            $fMessage = "First Name: " . $firstName . "\nLast Name: " . $lastName . "\nMessage:\n" . $message;    // message to me
+            $fMessage2 = "Hi " . $firstName .",\n\nThis is a confirmation email for your form submission on jonahlouis.ca. The following message was sent:\n\n"
             ."First Name:" . $firstName ."\nLast Name:" . $lastName ."\nMessage:\n" . $message;    // message to sender (copy)
+            $headers = "From: " .$email;
+            $headers2 = "From: " .$myEmail;
 
             // Send emails
-            mail($myEmail, $fSubject, $fMessage);
-            mail($email, $fSubject2, $fMessage2);
+            mail($myEmail, $fSubject, $fMessage, $headers);
+            mail($email, $fSubject2, $fMessage2, $headers2);
 
             echo "Success!";
         }
