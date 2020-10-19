@@ -388,6 +388,7 @@ Contact Page
     background-color: #748ffc;
     border: 2px solid #748ffc;
     color: white;
+    outline: none;
     transition: background-color 0.5s, color 0.5s;
     -webkit-transition: background-color 0.5s, color 0.5s;
   }
@@ -395,7 +396,6 @@ Contact Page
       background-color: white;
       border: 2px solid #748ffc;
       color: #748ffc;
-      outline: none;
     } 
   .contact-form-box input[type=text]:focus, textarea:focus  {
     border: 2px solid #748ffc;
