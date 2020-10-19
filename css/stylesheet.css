@@ -152,7 +152,7 @@ Navigation bar Wrapper
     }
 
 /********************************************************************************
-Content Wrapper
+About Me
 *********************************************************************************/
   #content { 
     text-align: center; 
@@ -172,13 +172,13 @@ Content Wrapper
       font-weight: 300;
     }
     #cHeader2-font1 { 
-      font-size: 40px; 
+      font-size: 35px; 
       font-weight: 300;
       padding-bottom: 50px;
     }
     #cHeader2-font2 { 
       color:#748ffc;  
-      font-size: 40px; 
+      font-size: 35px; 
       font-weight: 300;
     }
 

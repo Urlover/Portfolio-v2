@@ -88,8 +88,8 @@
         <div class="skill2" id="c-text-box">
             <h1 class="uni-subHeader">I make software & problem solve</h1>
             <p class="c-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nulla harum itaque deleniti 
-              dicta possimus voluptatum! Aut nam eligendi ullam, voluptates magnam molestiae cumque inventore. Est!
+              Wether the task is to code software from scratch, fix an existing issue, or add a feature,
+              I love to do it as efficiently and as clean as I can.   
               <br /><br />
               Software technologies I work with:
             </p>
