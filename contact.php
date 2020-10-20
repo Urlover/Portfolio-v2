@@ -28,6 +28,9 @@
     <!-- Social icon bar (Static left side) -->
     <?php include("social.php"); ?>
 
+    <!-- Validates the contact form -->
+    <?php include("verifyContact.php"); validate() ?>
+
     <div class="container-sm" id="contact-content">
         <div class="c-intro">
             <h1 class="uni-mainHeader">Contact Me</h1>
@@ -36,19 +39,19 @@
             <form method="post">
                 <div class="row">
                     <div class="col-md-6 form-input">
-                        <input type="text" id="fName" name="firstName" placeholder="First Name">
+                        <input type="text" id="fName" name="firstName" placeholder="<?php echo $firstName_ph; ?>" class="<?php echo $fInput; ?>">
                     </div>
                     <div class="col-md-6 form-input">
-                        <input type="text" id="lName" name="lastName" placeholder="Last Name">
+                        <input type="text" id="lName" name="lastName" placeholder="<?php echo $lastName_ph; ?>" class="<?php echo $lInput; ?>">
                     </div>
                     <div class="col-sm-12 form-input">
-                        <input type="text" id="email" name="email" placeholder="Email">
+                        <input type="text" id="email" name="email" placeholder="<?php echo $email_ph; ?>" class="<?php echo $eInput; ?>">
                     </div>
                     <div class="col-sm-12 form-input">
-                        <input type="text" id="subject" name="subject" placeholder="Subject">
+                        <input type="text" id="subject" name="subject" placeholder="<?php echo $subject_ph; ?>" class="<?php echo $sInput; ?>">
                     </div>  
                     <div class="col-sm-12 form-input">
-                        <textarea id="message" name="message" placeholder="Message"></textarea>
+                        <textarea id="message" name="message" placeholder="<?php echo $message_ph; ?>" class="<?php echo $mInput; ?>"></textarea>
                     </div>
                     <div class="col-sm-12 form-input">
                         <input type="submit" value="Submit">
@@ -57,57 +60,7 @@
             </form>
         </div>
     </div>
-
-    <?php 
-        // Used to send email to jonah_louis@outlook.com
-         if ( !empty($_POST) ) {
-            /* Varible initialization & declaration */
-            // My email
-            $mailTo = "jonah_louis@outlook.com";
-
-            // User information
-            $firstName = $_POST["firstName"];
-            $lastName = $_POST["lastName"];
-            $subject = $_POST["subject"];
-            $message = wordwrap($_POST["message"], 70);
-            $email = $_POST["email"];
-
-            // Formatted information
-            $fSubject = $subject . ": jonahlouis.ca form submission";   // subject for my message
-            $fMessage = '<html><body style="text-align:center;">';
-            $fMessage .= '<h1 style="font-weight:100;">Form submission from jonahlouis.ca</h1>';
-            $fMessage .= '<table style="border: 4px solid #748ffc;table-layout:fixed;width: 600px;" cellpadding="10">';
-            $fMessage .=
-                '<tr>
-                    <td><b>From</b></td>
-                    <td>'.$email.'</td>
-                </tr>
-
-                <tr>
-                <td><b>First name</b></td>
-                <td>'.$firstName.'</td>
-                </tr>
-
-                <tr>
-                <td><b>Last name</b></td>
-                <td>'.$lastName.'</td>
-                </tr>
-
-                <tr>
-                <td><b>Message</b></td>
-                <td>'.$message.'</td>
-                </tr>
-            </table>';
-            $fMessage .= "</body></html>";
-            
-            $headers = "MIME-Version: 1.0" . "\r\n"; 
-            $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n"; 
-
-            // Send emails
-            mail($mailTo, $fSubject, $fMessage, $headers);
-        }
-    ?>
-        
+  
     <!-- Footer -->
     <?php include("footer.php"); ?>
     </div> <!-- End of page-wrapper -->

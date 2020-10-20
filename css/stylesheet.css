@@ -72,7 +72,8 @@ Global Settings
   }
   /* Universal top of section div header */
   .c-intro {
-    padding: 100px 0;
+    padding-top: 50px;
+    padding-bottom: 100px;
   }
   
   /* Universal main-header */
@@ -367,12 +368,19 @@ Contact Page
   .form-input {
     padding: 10px;
   }
-  .contact-form-box input[type=text], textarea {
+  /* Default colour for inputs */
+  .c-input-d {
+    border: 2px solid #dee2e6;
+  }
+  /* Error colour for inputs */
+  .c-input-e {
+    border: 2px solid #ff8787fb !important;
+  }
+   .contact-form-box input[type=text], textarea {
     width: 100%;
     padding: 10px;
     outline: none;
     font-size: 16px;  
-    color:#868e96;
     border: 2px solid #dee2e6;
     -webkit-transition: 0.5s;
     transition: 0.5s; 
@@ -380,6 +388,7 @@ Contact Page
   .contact-form-box textarea {
     height: 200px;
     font-size: 16px;
+    resize: none;
   }
   .contact-form-box input[type=submit] {
     width: 100%;
