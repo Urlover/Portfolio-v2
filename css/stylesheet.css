@@ -375,6 +375,7 @@ Contact Page
   /* Error colour for inputs */
   .c-input-e {
     border: 2px solid #ff8787fb !important;
+    border: 2px solid rgba(255, 135, 135, 0.984) !important;
   }
    .contact-form-box input[type=text], textarea {
     width: 100%;
