@@ -123,5 +123,4 @@
             // Change to message sent page
             header("Location: contactSubmit.php");
     }
-
 ?>
