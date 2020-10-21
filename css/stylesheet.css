@@ -524,7 +524,7 @@ Responsive queries
     .c-aboutMe { padding: 50px 0; }
     .c-skill { padding: 50px 0; }
     #c-text-box { width: 80%; }
-    .contact-form-box { width: 450px; }
+    .contact-form-box { width: 100%; padding: 0; }
     #contactSubmit-wrapper h1 { font-size: 50px; }
   }
 
