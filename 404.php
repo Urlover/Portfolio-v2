@@ -27,7 +27,7 @@
     <!-- Social icon bar (Static left side) -->
     <?php include("social.php"); ?>
     
-        <div class="container-sm" id="err_wrapper">
+        <div class="container-sm message-wrapper" id="err_wrapper">
             <h1>404</h1>
             <h2>Oooops! The page you're looking for doesn't exists.</h2>
             <a href="index.php"><button type="button">Return</button></a>
