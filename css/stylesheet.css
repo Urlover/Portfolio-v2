@@ -483,6 +483,7 @@ Responsive queries
     #err_wrapper h1 { font-size: 125px; }
     #err_wrapper button { padding: 10px 25px; }
     .contact-form-box { width: 100%; padding: 0;}
+    #contact-content { padding: 0 10px; }
   }
 
   /* Extra small devices (phones, 500px and up) */
