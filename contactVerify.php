@@ -120,6 +120,8 @@
 
             // Send emails
             mail($mailTo, $fSubject, $fMessage, $headers);
+            // Change to message sent page
+            header("Location: contactSubmit.php");
     }
 
 ?>
