@@ -1,7 +1,7 @@
 <!-- Navigation bar -->
 <nav class="navbar navbar-expand-sm navbar-light slide-in-blurred-top">
   <!-- Logo -->
-  <a class="navbar-brand rotate-center" href="index.php"><img src="images/J_logo.png" width="40" height="40"></a>
+  <a class="navbar-brand rotate-center" href="index"><img src="images/J_logo.png" width="40" height="40"></a>
   <!-- Hamburger icon (collapse) -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -12,17 +12,17 @@
         <?php
         // All links that are have no underline (Not Active)
           $linksNonActive = array(
-            '<li class="nav-item active pr-4"><a href="index.php">About</a></li>',
-            '<li class="nav-item pr-4"><a href="projects.php">Projects</a></li>',
-            '<li class="nav-item pr-4"><a href="blog.php">Blog</a></li>',
-            '<li class="nav-item pr-4"><a href="contact.php">Contact</a></li>'
+            '<li class="nav-item active pr-4"><a href="index">About</a></li>',
+            '<li class="nav-item pr-4"><a href="projects">Projects</a></li>',
+            '<li class="nav-item pr-4"><a href="blog">Blog</a></li>',
+            '<li class="nav-item pr-4"><a href="contact">Contact</a></li>'
           );
         // All links that have an underline (Active)
           $linksActive = array(
-            '<li class="nav-item active pr-4"><a id="navbar-curr" href="index.php">About</a></li>',
-            '<li class="nav-item pr-4"><a id="navbar-curr" href="projects.php">Projects</a></li>',
-            '<li class="nav-item pr-4"><a id="navbar-curr" href="blog.php">Blog</a></li>',
-            '<li class="nav-item pr-4"><a id="navbar-curr" href="contact.php">Contact</a></li>'
+            '<li class="nav-item active pr-4"><a id="navbar-curr" href="index">About</a></li>',
+            '<li class="nav-item pr-4"><a id="navbar-curr" href="projects">Projects</a></li>',
+            '<li class="nav-item pr-4"><a id="navbar-curr" href="blog">Blog</a></li>',
+            '<li class="nav-item pr-4"><a id="navbar-curr" href="contact">Contact</a></li>'
           );
 
         // Set underline of nav bar item to current page
