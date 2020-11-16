@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Header file -->
-    <?php include("head.php"); ?>
-    <title>Jonah Louis</title>
+  <meta name="description" content="Jonah Louis is a Computer Science student attending his final year at Alqonquin College
+  inspiring to be a Full Stack Web Developper. Currently freelancing, working with Overhaul.Design, and creating personal projects in relevance with Web technologies.">
+  <!-- Header file -->
+  <?php include("head.php"); ?>
+  <title>Jonah Louis</title>
 </head>
 <body>
   <div class="page-wrapper">
