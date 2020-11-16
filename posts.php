@@ -29,10 +29,10 @@
 
     <!-- Main header -->
         <div class="c-intro">
-            <h1 class="uni-mainHeader">My Blog</h1>
+            <h1 class="uni-mainHeader">My Posts</h1>
         </div>
     <!-- Blog content -->
-        <div class="container-sm" id="blog-content">
+        <div class="container-sm" id="post-content">
             <h2>Adding content soon! Stay tuned!</h2>
         </div>
     </div>

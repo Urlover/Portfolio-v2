@@ -353,12 +353,12 @@ Projects Page
   }
 
 /********************************************************************************
-Blog Page
+Posts Page
 *********************************************************************************/
-#blog-content {
+#post-content {
   text-align: center;
 }
-  #blog-content h2 {
+  #post-content h2 {
     font-weight: 300;;
   }
 
