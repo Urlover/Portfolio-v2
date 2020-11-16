@@ -1,24 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/J_logo2.png"/>
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <!-- Boostrap CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" 
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <!-- End of boostrap -->
-    <script src="https://kit.fontawesome.com/b510426974.js" crossorigin="anonymous"></script>
-    <title>Jonah Louis | Blog</title>
+    <!-- Header file -->
+    <?php include("head.php"); ?>
+    <title>Jonah Louis | Post</title>
 </head>
 <body>
     <div class="page-wrapper">
@@ -29,11 +14,28 @@
 
     <!-- Main header -->
         <div class="c-intro">
-            <h1 class="uni-mainHeader">My Posts</h1>
+            <h1 class="uni-mainHeader">My Posts & Blogs</h1>
         </div>
     <!-- Blog content -->
         <div class="container-sm" id="post-content">
-            <h2>Adding content soon! Stay tuned!</h2>
+            <!--- Section #1 -->
+            <h4 class="uni-subHeader" id="post-subHeader">Intro to Web Programming</h4>
+            <table class="table table-hover table-borderless">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Post Name</th>
+                        <th scope="col">Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="clickable-row" data-href="posts/HTML_Lesson_1.php">
+                        <td>1</td>
+                        <td>HTML Basics</td>
+                        <td>11/16/2020</td>
+                    </tr>               
+                </tbody>
+            </table>
         </div>
     </div>
 </body>
