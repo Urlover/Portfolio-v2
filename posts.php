@@ -29,7 +29,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr class="clickable-row" data-href="posts/HTML_Lesson_1.php">
+                    <tr class="clickable-row" data-href="posts/HTML_Lesson_1">
                         <td>1</td>
                         <td>HTML Basics</td>
                         <td>11/16/2020</td>

@@ -12,6 +12,8 @@
     <!-- Social icon bar (Static left side) -->
     <?php include("../social.php"); ?>
 
+    
+
     </div>
 </body>
 </html>
