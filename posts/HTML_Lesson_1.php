@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Header file -->
+    <?php include("../head.php"); ?>
+    <title>Jonah Louis | 1 - HTML Basics</title>
 </head>
 <body>
-    
+    <div class="page-wrapper">
+    <!-- Navigation bar -->
+    <?php include("../nav.php"); ?>
+    <!-- Social icon bar (Static left side) -->
+    <?php include("../social.php"); ?>
+
+    </div>
 </body>
 </html>
