@@ -14,14 +14,14 @@
           $linksNonActive = array(
             '<li class="nav-item active pr-4"><a href="/index">About</a></li>',
             '<li class="nav-item pr-4"><a href="/projects">Projects</a></li>',
-            '<li class="nav-item pr-4"><a href="/post">Posts</a></li>',
+            '<li class="nav-item pr-4"><a href="/posts">Posts</a></li>',
             '<li class="nav-item pr-4"><a href="/contact">Contact</a></li>'
           );
         // All links that have an underline (Active)
           $linksActive = array(
             '<li class="nav-item active pr-4"><a id="navbar-curr" href="/index">About</a></li>',
             '<li class="nav-item pr-4"><a id="navbar-curr" href="/projects">Projects</a></li>',
-            '<li class="nav-item pr-4"><a id="navbar-curr" href="/post">Posts</a></li>',
+            '<li class="nav-item pr-4"><a id="navbar-curr" href="/posts">Posts</a></li>',
             '<li class="nav-item pr-4"><a id="navbar-curr" href="/contact">Contact</a></li>'
           );
 
@@ -30,7 +30,7 @@
           echo $linksActive[0]; echo $linksNonActive[1]; echo $linksNonActive[2];echo $linksNonActive[3];
         } else if (stripos($_SERVER['SCRIPT_NAME'], 'projects.php')) {
           echo $linksNonActive[0]; echo $linksActive[1]; echo $linksNonActive[2]; echo $linksNonActive[3];
-        } else if (stripos($_SERVER['SCRIPT_NAME'], 'post.php')) {
+        } else if (stripos($_SERVER['SCRIPT_NAME'], 'posts.php')) {
           echo $linksNonActive[0]; echo $linksNonActive[1]; echo $linksActive[2]; echo $linksNonActive[3];
         } else if (stripos($_SERVER['SCRIPT_NAME'], 'contact.php')) {
           echo $linksNonActive[0]; echo $linksNonActive[1]; echo $linksNonActive[2]; echo $linksActive[3];
