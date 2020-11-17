@@ -8,9 +8,9 @@
 <body>
     <div class="page-wrapper">
     <!-- Navigation bar -->
-    <?php include("../nav.php"); ?>
+    <?php include("../layout/nav.php"); ?>
     <!-- Social icon bar (Static left side) -->
-    <?php include("../social.php"); ?>
+    <?php include("../layout/social.php"); ?>
 
     
 

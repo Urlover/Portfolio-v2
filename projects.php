@@ -24,9 +24,9 @@
 <body>
   <div class="page-wrapper">
     <!-- Navigation bar -->
-    <?php include("nav.php"); ?>
+    <?php include("layout/nav.php"); ?>
     <!-- Social icon bar (Static left side) -->
-    <?php include("social.php"); ?>
+    <?php include("layout/social.php"); ?>
 
   <!-- Projects content -->
     <div class="container-sm" id="projects-content">
@@ -77,7 +77,7 @@
     </div>
 
     <!-- Footer -->
-    <?php include("footer.php"); ?>
+    <?php include("layout/footer.php"); ?>
 
   </div> <!-- end of page wrapper-->
 </body>
