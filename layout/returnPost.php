@@ -1,1 +1,1 @@
-<a href="/post" class="returnPost">Return to posts</a>
+<a href="/posts" class="returnPost">Return to posts</a>
