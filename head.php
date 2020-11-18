@@ -20,7 +20,7 @@
   integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   <!-- End of boostrap -->
   <script src="https://kit.fontawesome.com/b510426974.js" crossorigin="anonymous"></script>
-  <script src="js/myScript.js"></script>
+  <script src="/js/myScript.js"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178546723-1"></script>
   <script>
