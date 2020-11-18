@@ -10,8 +10,6 @@
     <div class="page-wrapper">
         <!-- Navigation bar -->
         <?php include("../layout/nav.php"); ?>
-        <!-- Social icon bar (Static left side) -->
-        <?php include("../layout/social.php"); ?>
 
         <!-- Content Area --> 
         <div class="container-sm">
