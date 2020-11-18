@@ -205,9 +205,25 @@
 
                 <!-- STEP 7 -->
                 <h4 class="uni-subHeader" id="posts-subHeader">7. Requirements for demo</h4>
-                <h4 class="uni-subHeader2">Working on it...</h4>
-            </div>
-        </div>
+                <h4 class="uni-subHeader2">7a. Create two HTML pages</h4>
+                <p> <code>index.html</code></p>
+                <ul>
+                    <li>Title in title bar</li>
+                    <li>Main title header</li>
+                    <li>Link to page 2</li>
+                    <li>Section for "About Me" with title, list, and image</li>
+                    <li>Section with a title and a paragraph with spacing. Use nested elements in the paragraph for bolding..etc</li>
+                </ul>
+                <p> <code>page2.html</code></p>
+                <ul>
+                    <li>Title in title bar</li>
+                    <li>Main title header</li>
+                    <li>Link back to index</li>
+                    <li>Html table with html styling</li>
+                </ul>
+                <p>Use my demo as reference if necessary. Thank you for reading, have a wonderful day!</p>
+            </div> <!-- end of posts content -->
+        </div> <!-- End of content area ->
     <!-- Footer -->
     <?php include("../layout/footer.php"); ?>
     </div> <!-- End of page wrapper -->
