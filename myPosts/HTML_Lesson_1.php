@@ -28,6 +28,8 @@
                     </ol>
                 </nav>
             </div>
+
+
             <!-- Content section #1 - Objective and end goal -->
             <div class="posts-content">
                 <h5>Objective</h5>
@@ -37,7 +39,28 @@
                     and made into a single introduction so it can be easily followed.</p>
                 <h5>Demo</h5>
                 <p>By the end of the post & if you decided to follow along, your demo should look something like this:</p>
+                <!-- Carousel -->
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="/images/HTML_demo_preview_1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="/images/HTML_demo_preview_2.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <i class="fas fa-long-arrow-alt-left fa-3x" aria-hidden="true"></i>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <i class="fas fa-long-arrow-alt-right fa-3x" aria-hidden="true"></i>
+                        <span class="sr-only">Next</span>
+                    </a>
+                    </div>
             </div>
+
+
             <!-- Content section #2 -->
             <div class="posts-content">
                 <!-- Before steps -->
@@ -100,7 +123,7 @@
                 <p>A html element has a starting tag, content in between, and then an end tag.  Example:</p>
                 <code>&lt;tagname&gt;Content here&lt;/tagname&gt;</code><br><br>
                 <p>
-                    There's a variety of elements that all hold a specific purpose. We will take a look and use them later, but for now let's look at another example:
+                    There's a variety of elements that all hold a specific purpose. We will take a look and use them later, but for now let's look at another example.
                     In the code we created, we have <code>&lt;!DOCTYPE html&gt;</code> which has everything inside of it. This means that
                     for <code>&lt;!DOCTYPE html&gt;</code>, its content is everything in between.
                 </p>

@@ -417,6 +417,15 @@ Posts Pages (Universal settings)
   .posts-bullet-point {
     color: #96f2d7 !important;
   }
+  .posts-content .carousel {
+    border: 10px solid #ced4da ;
+  }
+    .posts-content .fa-long-arrow-alt-left  {
+      color: #748ffc !important;
+    }
+    .posts-content .fa-long-arrow-alt-right  {
+      color: #748ffc !important;
+    }
 
 /********************************************************************************
 Contact Page
