@@ -4,7 +4,7 @@
     <meta name="description" content="A quick demonstration of some of the HTML basics and how to apply them to an HTML document.">
     <!-- Header file -->
     <?php include("../head.php"); ?>
-    <title>Jonah Louis | 1 - HTML Basics</title>
+    <title>Jonah Louis | HTML Basics</title>
 </head>
 <body>
     <div class="page-wrapper">
@@ -91,7 +91,7 @@
                 <i class="fas fa-circle-notch posts-bullet-point"></i> <code>&lt;html&gt;</code> element is the root of an HTML page<br />
                 <i class="fas fa-circle-notch posts-bullet-point"></i> <code>&lt;head&gt;</code> element contains meta information about the HTML page. Example: The title of the page,
                 or the language of the page.<br />
-                <i class="fas fa-circle-notch posts-bullet-point"></i> <code>&lt;title&gt;</code> element specifies the name of the HTML document on the page (shown in browser title bar).<br />
+                <i class="fas fa-circle-notch posts-bullet-point"></i> <code>&lt;title&gt;</code> element specifies the name of the HTML document on the page (shown in browser title bar)<br />
                 <i class="fas fa-circle-notch posts-bullet-point"></i> <code>&lt;body&gt;</code> element defines the document's body, and is used for visible contents (like the heading "
                 Hello World" in our case).<br />
                 <i class="fas fa-circle-notch posts-bullet-point"></i> <code>&lt;h1&gt;</code> element defines a large heading<br />
@@ -134,7 +134,7 @@
                     With a full web address (just like we did above).<br>
                     <code>&lt;a href="https://www.jonahlouis.ca">View a cool website&gt;&lt;/a&gt;</code><br>
                     <br>
-                    <b>2. Relatuve URL</b><br>
+                    <b>2. Relative URL</b><br>
                     With a local address/local file.<br>
                     <code>&lt;a href="page2.html">View my second page&gt;&lt;/a&gt;</code>
                 </p>
@@ -163,10 +163,10 @@
 &lt;/table&gt;
 </code></pre>
                 </div>
-                <i class="fas fa-circle-notch posts-bullet-point"></i> <code>&lt;table&gt;</code> tag defines an HTML table.<br />
-                <i class="fas fa-circle-notch posts-bullet-point"></i> <code>&lt;tr&gt;</code> tag defines an HTML table row.<br />
-                <i class="fas fa-circle-notch posts-bullet-point"></i> <code>&lt;th&gt;</code> tag defines an HTML table header. Bold and centered by default.<br />
-                <i class="fas fa-circle-notch posts-bullet-point"></i> <code>&lt;td&gt;</code> tag defines an HTML table cell. Regular font weight and left aligned.<br />
+                <i class="fas fa-circle-notch posts-bullet-point"></i> <code>&lt;table&gt;</code> tag defines an HTML table<br />
+                <i class="fas fa-circle-notch posts-bullet-point"></i> <code>&lt;tr&gt;</code> tag defines an HTML table row<br />
+                <i class="fas fa-circle-notch posts-bullet-point"></i> <code>&lt;th&gt;</code> tag defines an HTML table header. Bold and centered by default<br />
+                <i class="fas fa-circle-notch posts-bullet-point"></i> <code>&lt;td&gt;</code> tag defines an HTML table cell. Regular font weight and left aligned<br />
 
                 <!-- STEP 4 -->
                 <h4 class="uni-subHeader" id="posts-subHeader">4. Nesting elements</h4>
