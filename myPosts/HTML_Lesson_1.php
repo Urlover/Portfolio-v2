@@ -169,7 +169,7 @@
                 You can either point the src to an image located on the internet (like I did) or you can point it to a local file.
                 </p>
                 <!-- Sub section 3d --> 
-                <h4 class="uni-subHeader2">3e. Tables</h4>
+                <h4 class="uni-subHeader2">3d. Tables</h4>
                 <div class="code-block">
 <!-- Weird spacing issue so I had to put this at the start -->
 <pre><code>&lt;table&gt;
@@ -188,6 +188,14 @@
                 <i class="fas fa-circle-notch posts-bullet-point"></i> <code>&lt;tr&gt;</code> tag defines an HTML table row<br />
                 <i class="fas fa-circle-notch posts-bullet-point"></i> <code>&lt;th&gt;</code> tag defines an HTML table header. Bold and centered by default<br />
                 <i class="fas fa-circle-notch posts-bullet-point"></i> <code>&lt;td&gt;</code> tag defines an HTML table cell. Regular font weight and left aligned<br />
+
+                <!-- Sub section 3d --> 
+                <h4 class="uni-subHeader2">3e. Other elements</h4>
+                <p>
+                    The elements I mentionned are only a few of the elements out of the wide spectrum of elements in HTML. <br>
+                    Here is a full list of all the HTML elements: <a href="https://www.htmlquick.com/reference/tags.html" target="_blank">Full List</a><br>
+                    Here are tutorials & more details on the elements (view the panel on the left): <a href="https://www.w3schools.com/html/html_elements.asp" target="_blank">W3 Tutorials</a><br>
+                </p>
 
                 <!-- STEP 4 -->
                 <h4 class="uni-subHeader" id="posts-subHeader">4. Nesting elements</h4>
